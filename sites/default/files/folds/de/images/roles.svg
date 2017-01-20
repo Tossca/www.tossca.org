@@ -140,7 +140,17 @@
         <path id="governance-path" d="M419.91,432.84C297,418.13,203.73,345.65,203.73,258.46c0-87,92.9-159.34,215.36-174.28" fill="none" stroke="#00b945" stroke-miterlimit="10" stroke-width="1.81" opacity="0.4"/>
         <g id="governance-illu">
           <path d="M220.28,293.3c28.61,0,51.8-31,51.8-69.24s-23.19-69.24-51.8-69.24-51.8,31-51.8,69.24,23.19,69.24,51.8,69.24" fill="#fff"/>
-          <text transform="translate(169.67 273.02)" font-size="15.48" fill="#c3c3c3" font-family="WorkSans-Light, Work Sans">P<tspan x="9.09" y="0" letter-spacing="-0.02em">r</tspan><tspan x="14.59" y="0" letter-spacing="0em">ojekt</tspan><tspan x="49.92" y="0" letter-spacing="0em">l</tspan><tspan x="54.12" y="0" letter-spacing="0em">eiter</tspan></text>
+          <text
+             font-size="15.48"
+             id="text195"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.47999954px;line-height:125%;font-family:WorkSans-Light, 'Work Sans';-inkscape-font-specification:'WorkSans-Light, Work Sans, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#c3c3c3"
+             x="124.54394"
+             y="271.95819">
+            <tspan
+               id="tspan3696"
+               x="124.54394"
+               y="271.95819">Projektverantwortlicher</tspan>
+          </text>
           <g opacity="0.2">
             <g>
               <path d="M211.91,242.57H190.72l-.58-13.09s0-7,3.82-9.6a65.81,65.81,0,0,1,10.34-5.21" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-25)"/>
