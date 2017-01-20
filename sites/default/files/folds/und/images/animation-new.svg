@@ -1,0 +1,237 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <clipPath id="clip-path">
+      <path d="M135.67,189.77V162.34h28.67v27.43L150,197.94Zm-4.41-32v34.62L150,203.11l18.74-10.68V157.81Z" fill="none"/>
+    </clipPath>
+    <linearGradient id="gradient_2" x1="-228.31" y1="561.25" x2="-226.12" y2="561.25" gradientTransform="matrix(21.51, -6.58, -6.58, -21.51, 8726.81, 10756.8)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00ba45"/>
+      <stop offset="1" stop-color="#00bab4"/>
+    </linearGradient>
+    <clipPath id="clip-path-2">
+      <polygon points="149.13 187.34 140.82 178.81 143.94 175.61 148.63 180.43 155.77 170.54 159.31 173.24 149.13 187.34" fill="none"/>
+    </clipPath>
+    <linearGradient id="gradient_2-2" x1="-203.4" y1="573.31" x2="-201.22" y2="573.31" gradientTransform="matrix(9.92, -3.03, -3.03, -9.92, 3893.94, 5250.16)" xlink:href="#gradient_2"/>
+    <linearGradient id="gradient_36" x1="-397.48" y1="796.15" x2="-396.51" y2="796.15" gradientTransform="matrix(4.33, 4.33, 4.33, -4.33, -1576.63, 5305.05)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00b945"/>
+      <stop offset="1" stop-color="#00b9b3"/>
+    </linearGradient>
+    <linearGradient id="gradient_36-2" x1="-416.62" y1="682.98" x2="-415.65" y2="682.98" gradientTransform="translate(15502.88 9508.32) rotate(90) scale(22.5)" xlink:href="#gradient_36"/>
+    <linearGradient id="gradient_36-3" x1="-416.62" y1="719.4" x2="-415.65" y2="719.4" gradientTransform="matrix(0, 22.5, 22.5, 0, -16022.41, 9508.32)" xlink:href="#gradient_36"/>
+    <linearGradient id="gradient_36-4" x1="96.02" y1="150.29" x2="204.17" y2="150.29" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#gradient_36"/>
+    <linearGradient id="gradient_6" x1="-397.47" y1="796.15" x2="-396.52" y2="796.15" gradientTransform="matrix(4.33, 4.33, 4.33, -4.33, -1576.63, 5305.05)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f957b6"/>
+      <stop offset="0.01" stop-color="#f957b6"/>
+      <stop offset="1" stop-color="#fb5052"/>
+      <stop offset="1" stop-color="#fb5052"/>
+    </linearGradient>
+    <linearGradient id="gradient_6-2" x1="-416.62" y1="682.98" x2="-415.65" y2="682.98" gradientTransform="translate(15502.88 9508.32) rotate(90) scale(22.5)" xlink:href="#gradient_6"/>
+    <linearGradient id="gradient_6-3" x1="-416.62" y1="719.4" x2="-415.65" y2="719.4" gradientTransform="matrix(0, 22.5, 22.5, 0, -16022.41, 9508.32)" xlink:href="#gradient_6"/>
+    <linearGradient id="gradient_6-4" x1="103.72" y1="150.29" x2="196.44" y2="150.29" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#gradient_6"/>
+    <linearGradient id="gradient_6-6" x1="144.15" y1="144" x2="155.85" y2="144" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#gradient_6"/>
+    <linearGradient id="gradient_6-7" x1="135.52" y1="144" x2="164.48" y2="144" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#gradient_6"/>
+  </defs>
+  <g id="layer2">
+    <g id="solution">
+      <g id="partner-05" class="partner">
+        <line id="contract-05" class="contract" x1="245" y1="174" x2="150" y2="174" fill="none" stroke="#00b945" stroke-width="1" opacity="0.4"/>
+          <g id="company-03" class="company">
+            <path d="M245,185a11,11,0,1,1,2.85-.38A11,11,0,0,1,245,185Z" fill="#00b945"/>
+            <path d="M245,166.5a7.51,7.51,0,1,1-1.95.26,7.5,7.5,0,0,1,1.95-.26m0-7h0a14.5,14.5,0,1,0,14,10.75,14.53,14.53,0,0,0-14-10.75Z" fill="#fff"/>
+          </g>
+        </g>
+        <g id="partner-04" class="partner">
+          <line id="contract-04" class="contract" x1="217.18" y1="241.18" x2="150" y2="174" fill="none" stroke="#00b945" stroke-width="1" opacity="0.4"/>
+          <g id="company-02" class="company">
+            <path d="M217.18,252.18A11,11,0,1,1,227.8,244,11,11,0,0,1,217.18,252.18Z" fill="#00b945"/>
+            <path d="M217.17,233.67a7.5,7.5,0,1,1-7.24,5.56,7.51,7.51,0,0,1,7.24-5.56m0-7h0a14.51,14.51,0,1,0,3.76.5,14.52,14.52,0,0,0-3.76-.5Z" fill="#fff"/>
+          </g>
+        </g>
+        <g id="partner-03" class="partner">
+          <line id="contract-03" class="contract" x1="150" y1="269" x2="150" y2="174" fill="none" stroke="#00b945" stroke-width="1" opacity="0.4"/>
+          <g id="company-01" class="company">
+            <path d="M150,280a11,11,0,1,1,7.78-3.22A10.93,10.93,0,0,1,150,280Z" fill="#00b945"/>
+            <path d="M150,261.5a7.5,7.5,0,1,1-5.3,2.2,7.47,7.47,0,0,1,5.3-2.2m0-7h0a14.5,14.5,0,1,0,10.25,4.25A14.41,14.41,0,0,0,150,254.5Z" fill="#fff"/>
+          </g>
+        </g>
+        <g id="partner-02" class="partner">
+          <line id="contract-02" class="contract" x1="84.54" y1="239.46" x2="150" y2="174" fill="none" stroke="#00b945" stroke-width="1" opacity="0.4"/>
+          <g id="company-02-2" class="company">
+            <path d="M84.55,250.46a11,11,0,1,1,10.62-8.16A11,11,0,0,1,84.55,250.46Z" fill="#00b945"/>
+            <path d="M84.54,232a7.5,7.5,0,1,1-7.24,5.56A7.51,7.51,0,0,1,84.54,232m0-7h0a14.51,14.51,0,1,0,3.76.5,14.52,14.52,0,0,0-3.76-.5Z" fill="#fff"/>
+          </g>
+        </g>
+        <g id="partner-01" class="partner">
+          <line id="contract-01" class="contract" x1="54.27" y1="174" x2="149.27" y2="174" fill="none" stroke="#00b945" stroke-width="1" opacity="0.4"/>
+          <g id="company-01-2" class="company">
+            <path d="M54.27,185a11,11,0,1,1,10.62-8.16A11,11,0,0,1,54.27,185Z" fill="#00b945"/>
+            <path d="M54.26,166.5A7.5,7.5,0,1,1,47,172.06a7.51,7.51,0,0,1,7.24-5.56m0-7h0A14.51,14.51,0,1,0,58,160a14.52,14.52,0,0,0-3.76-.5Z" fill="#fff"/>
+          </g>
+        </g>
+        <g class="contribution" id="contribution-tossca">
+          <g  class="contribution-2" id="contribution-01-2" opacity="0.4">
+            <g>
+              <line x1="150" y1="156.33" x2="150" y2="23.83" fill="none" stroke="#1da73e" stroke-linecap="round" stroke-width="6" stroke-dasharray="0 15"/>
+            </g>
+          </g>
+          <g class="contribution-1" id="contribution-01-1" opacity="0.4">
+            <g>
+              <line x1="150" y1="164.06" x2="150" y2="19.97" fill="none" stroke="#25b4af" stroke-linecap="round" stroke-width="4" stroke-dasharray="0 10"/>
+            </g>
+          </g>
+        </g>
+        <g id="tossca">
+          <path d="M150,212,123.5,197V150h53V197Z" fill="#fff"/>
+          <g clip-path="url(#clip-path)">
+            <polygon points="118.91 161.69 165.54 147.06 181.09 199.24 134.46 213.87 118.91 161.69" fill="url(#gradient_2)"/>
+          </g>
+          <g clip-path="url(#clip-path-2)">
+            <polygon points="136.24 171.98 157.73 165.24 163.89 185.9 142.4 192.64 136.24 171.98" fill="url(#gradient_2-2)"/>
+          </g>
+        </g>
+    </g>
+    <g id="problem">
+      <g id="contracts">
+        <path class="contract" d="M34,82c49.17-1.29,93.53-27,116-67" fill="none" stroke="#00b945" stroke-width="1" opacity="0.4"/>
+        <path class="contract contract-company-05" d="M267,82C211.77,30.11,89.62,31.79,34,82" fill="none" stroke="#00b945" stroke-width="1" opacity="0.4"/>
+        <path class="contract" d="M150,15C63,27.62,22.07,142.66,34,217" fill="none" stroke="#00b945" stroke-width="1" opacity="0.4"/>
+        <path class="contract" d="M150,285c96.83,0,95.18-270,0-270" fill="none" stroke="#00b945" stroke-width="1" opacity="0.4"/>
+        <path class="contract" d="M34,82C15.74,159.05,59.24,277.11,150,285" fill="none" stroke="#00b945" stroke-width="1" opacity="0.4"/>
+        <path class="contract" d="M34,217c47.86-.27,91.36,23.1,116,68" fill="none" stroke="#00b945" stroke-width="1" opacity="0.4"/>
+        <path class="contract contract-company-05" d="M150,285c91.29-4.83,118.49-131.87,117-203" fill="none" stroke="#00b945" stroke-width="1" opacity="0.4"/>
+        <path class="contract" d="M34,217c18.05,36.15,66.84,40.61,102.2,39.29,25.64-1,121.35-9.66,130.8-38.29" fill="none" stroke="#00b945" stroke-width="1" opacity="0.4"/>
+        <path class="contract" d="M34,82C-7.54,148.48,222.14,289.8,267,218" fill="none" stroke="#00b945" stroke-width="1" opacity="0.4"/>
+        <path class="contract contract-company-05" d="M267,82C226.42,2-10.84,128.62,34,217" fill="none" stroke="#00b945" stroke-width="1" opacity="0.4"/>
+        <path class="contract contract-company-05" d="M267,82c-23.54-39.25-67.9-67-117-67" fill="none" stroke="#00b945" stroke-width="1" opacity="0.4"/>
+        <path class="contract contract-company-05" d="M267,218c-25.16-44.54-26.58-91.67,0-136" fill="none" stroke="#00b945" stroke-width="1" opacity="0.4"/>
+        <path class="contract" d="M150,285c50.35,0,93.88-26.07,117-67" fill="none" stroke="#00b945" stroke-width="1" opacity="0.4"/>
+        <path class="contract" d="M34,82c-25.17,42.13-23,92.54,0,135" fill="none" stroke="#00b945" stroke-width="1" opacity="0.4"/>
+        <path class="contract" d="M267,218c8.26-66.23-34.24-203-117-203" fill="none" stroke="#00b945" stroke-width="1" opacity="0.4"/>
+      </g>
+      <g class="partner partner__secondary" id="partner-06">
+        <g class="contribution contribution-remaining" id="contribution-02">
+          <g class="contribution-2" id="contribution-06-2" opacity="0.2">
+            <line x1="150" y1="31.88" x2="150" y2="141.56" fill="none" stroke="#1da73e" stroke-linecap="round" stroke-width="6" stroke-dasharray="0 15"/>
+          </g>
+          <g class="contribution-1" id="contribution-06-1" opacity="0.2">
+            <line x1="150" y1="24.64" x2="150" y2="145.18" fill="none" stroke="#25b4af" stroke-linecap="round" stroke-width="4" stroke-dasharray="0 10"/>
+          </g>
+        </g>
+        <g class="company" id="company-06">
+          <path d="M150,26a11,11,0,1,1,7.78-3.22A10.93,10.93,0,0,1,150,26Z" fill="#00b945"/>
+          <path d="M150,7.5a7.5,7.5,0,1,1-5.3,2.2A7.47,7.47,0,0,1,150,7.5m0-7h0a14.5,14.5,0,0,0-10.25,24.75A14.5,14.5,0,1,0,160.25,4.75,14.4,14.4,0,0,0,150,.5Z" fill="#fff"/>
+        </g>
+      </g>
+      <g class="partner partner__secondary" id="partner-05-2" data-name="partner-05">
+        <g class="contribution" id="contribution-02">
+          <g class="contribution-2" id="contribution-05-2" opacity="0.2">
+            <line x1="252.3" y1="90.94" x2="157.31" y2="145.78" fill="none" stroke="#1da73e" stroke-linecap="round" stroke-width="6" stroke-dasharray="0 15"/>
+          </g>
+          <g class="contribution-1" id="contribution-05-1" opacity="0.2">
+            <line x1="258.56" y1="87.32" x2="154.18" y2="147.59" fill="none" stroke="#25b4af" stroke-linecap="round" stroke-width="4" stroke-dasharray="0 10"/>
+          </g>
+        </g>
+        <g class="company" id="company-05-explosion">
+          <path id="company-05-explosion-background" d="M267,67.5h0a14.51,14.51,0,1,0,3.76.5,14.52,14.52,0,0,0-3.76-.5Z" fill="#fff"/>
+          <line class="company-05-explosion" id="company-05-explosion-04" x1="267" y1="82" x2="267" y2="65" fill="none" stroke="#f952b6" stroke-width="2" stroke-miterlimit="10"/>
+          <line class="company-05-explosion" id="company-05-explosion-03" x1="267" y1="82" x2="284" y2="82" fill="none" stroke="#f952b6" stroke-width="2" stroke-miterlimit="10"/>
+          <line class="company-05-explosion" id="company-05-explosion-02" x1="267" y1="82" x2="267" y2="99" fill="none" stroke="#f952b6" stroke-width="2" stroke-miterlimit="10"/>
+          <line class="company-05-explosion" id="company-05-explosion-01" x1="267" y1="82" x2="250" y2="82" fill="none" stroke="#f952b6" stroke-width="2" stroke-miterlimit="10"/>
+          <circle id="company-05-explosion-foreground-white" cx="267.06" cy="82" r="7.5" fill="#fff"/>
+          <circle id="company-05-explosion-foreground" cx="267.06" cy="82" r="7.5" fill="#00b945"/>
+        </g>
+      </g>
+      <g class="partner partner__secondary" id="partner-04-2" data-name="partner-04">
+        <g class="contribution contribution-remaining" id="contribution-02">
+          <g class="contribution-2" id="contribution-04-2" opacity="0.2">
+            <line x1="47.7" y1="90.94" x2="142.69" y2="145.78" fill="none" stroke="#1da73e" stroke-linecap="round" stroke-width="6" stroke-dasharray="0 15"/>
+          </g>
+          <g class="contribution-1" id="contribution-04-1" opacity="0.2">
+            <line x1="41.44" y1="87.32" x2="145.82" y2="147.59" fill="none" stroke="#25b4af" stroke-linecap="round" stroke-width="4" stroke-dasharray="0 10"/>
+          </g>
+        </g>
+        <g id="company-04-warning">
+          <g id="company-04-warning-background">
+            <circle cx="34" cy="82" r="14.5" transform="translate(-20.06 11.59) rotate(-15)" fill="#fff"/>
+          </g>
+          <g id="company-04-warning-halo" opacity="0.3">
+            <circle cx="34" cy="82" r="6.8" transform="matrix(0.97, -0.26, 0.26, 0.97, -20.06, 11.59)" fill="#f952b6"/>
+          </g>
+          <g id="company-04-warning-foreground">
+            <circle cx="34" cy="82" r="7.43" transform="matrix(0.97, -0.26, 0.26, 0.97, -20.06, 11.59)" fill="#f952b6"/>
+          </g>
+        </g>
+        <g class="company" id="company-04-2" data-name="company-04">
+          <path d="M34,93a11,11,0,1,1,2.85-.38A11,11,0,0,1,34,93Z" fill="#00b945"/>
+          <path d="M34,74.5a7.51,7.51,0,1,1-1.95.26A7.5,7.5,0,0,1,34,74.5m0-7h0A14.5,14.5,0,1,0,48,78.25,14.53,14.53,0,0,0,34,67.5Z" fill="#fff"/>
+        </g>
+      </g>
+      <g class="partner partner__secondary" id="partner-03-2" data-name="partner-03">
+        <g class="contribution contribution-remaining" id="contribution-02">
+          <g class="contribution-2" id="contribution-03-2" opacity="0.2">
+            <line x1="252.3" y1="209.06" x2="157.31" y2="154.22" fill="none" stroke="#1da73e" stroke-linecap="round" stroke-width="6" stroke-dasharray="0 15"/>
+          </g>
+          <g class="contribution-1" id="contribution-03-1" opacity="0.2">
+            <line x1="258.56" y1="212.68" x2="154.18" y2="152.41" fill="none" stroke="#25b4af" stroke-linecap="round" stroke-width="4" stroke-dasharray="0 10"/>
+          </g>
+        </g>
+        <g class="company" id="company-03-2">
+          <path d="M267,228a11,11,0,1,1,2.85-.38A11,11,0,0,1,267,228Z" fill="#00b945"/>
+          <path d="M267,209.5a7.51,7.51,0,1,1-1.95.26,7.5,7.5,0,0,1,1.95-.26m0-7h0a14.5,14.5,0,1,0,14,10.75,14.53,14.53,0,0,0-14-10.75Z" fill="#fff"/>
+        </g>
+      </g>
+      <g class="partner partner__secondary" id="partner-02-2" data-name="partner-02">
+        <g class="contribution contribution-remaining" id="contribution-02">
+          <g class="contribution-2" id="contribution-02-2" opacity="0.2">
+            <line x1="47.7" y1="209.06" x2="142.69" y2="154.22" fill="none" stroke="#1da73e" stroke-linecap="round" stroke-width="6" stroke-dasharray="0 15"/>
+          </g>
+          <g class="contribution-1" id="contribution-02-1" opacity="0.2">
+            <line x1="41.44" y1="212.68" x2="145.82" y2="152.41" fill="none" stroke="#25b4af" stroke-linecap="round" stroke-width="4" stroke-dasharray="0 10"/>
+          </g>
+        </g>
+        <g class="company" id="company-02-2" data-name="company-02">
+          <path d="M34,228a11,11,0,1,1,10.62-8.16A11,11,0,0,1,34,228Z" fill="#00b945"/>
+          <path d="M34,209.5a7.5,7.5,0,1,1-7.24,5.56A7.51,7.51,0,0,1,34,209.5m0-7h0a14.51,14.51,0,1,0,3.76.5,14.52,14.52,0,0,0-3.76-.5Z" fill="#fff"/>
+        </g>
+      </g>
+      <g class="partner" id="partner-01-2" data-name="partner-01">
+        <g class="contribution contribution-remaining" id="contribution-02">
+          <g class="contribution-2" id="contribution-01-2" opacity="0.2">
+            <line x1="150" y1="268.13" x2="150" y2="158.44" fill="none" stroke="#1da73e" stroke-linecap="round" stroke-width="6" stroke-dasharray="0 15"/>
+          </g>
+          <g class="contribution-1" id="contribution-01-1" opacity="0.2">
+            <line x1="150" y1="275.36" x2="150" y2="154.82" fill="none" stroke="#25b4af" stroke-linecap="round" stroke-width="4" stroke-dasharray="0 10"/>
+          </g>
+        </g>
+        <g class="company" id="company-01-2" data-name="company-01">
+          <path d="M150,296a11,11,0,1,1,7.78-3.22A10.93,10.93,0,0,1,150,296Z" fill="#00b945"/>
+          <path d="M150,277.5a7.5,7.5,0,1,1-5.3,2.2,7.47,7.47,0,0,1,5.3-2.2m0-7h0a14.5,14.5,0,1,0,10.25,4.25A14.41,14.41,0,0,0,150,270.5Z" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+    <g id="project">
+      <g id="project-default">
+        <polygon points="97 180 124 180 124 192 176 192 176 180 203 180 203 107 97 107 97 180" fill="#fff"/>
+        <polyline points="156.72 134.31 144.19 153.68 143.38 153.15 155.9 133.78" fill="url(#gradient_36)"/>
+        <polygon points="137.05 154.63 128.72 143.73 137.05 132.82 137.82 133.41 129.94 143.73 137.82 154.04 137.05 154.63 137.05 154.63" fill="url(#gradient_36-2)"/>
+        <polygon points="162.34 154.04 170.23 143.73 162.34 133.41 163.12 132.82 171.45 143.73 163.12 154.63 162.34 154.04 162.34 154.04" fill="url(#gradient_36-3)"/>
+        <path d="M196.23,174.46V113H103.94v61.47H149.6v12.15H134.1v1h32v-1H150.57V174.46Zm-91.31-1V114h90.34v59.52Z" fill="url(#gradient_36-4)"/>
+      </g>
+      <g id="project-warning">
+        <polygon points="97 180 124 180 124 192 176 192 176 180 203 180 203 107 97 107 97 180" fill="#fff"/>
+        <polyline points="156.72 134.31 144.19 153.68 143.38 153.15 155.9 133.78" fill="url(#gradient_6)"/>
+        <polygon points="137.05 154.63 128.72 143.73 137.05 132.82 137.82 133.41 129.94 143.73 137.82 154.04 137.05 154.63 137.05 154.63" fill="url(#gradient_6-2)"/>
+        <polygon points="162.34 154.04 170.23 143.73 162.34 133.41 163.12 132.82 171.45 143.73 163.12 154.63 162.34 154.04 162.34 154.04" fill="url(#gradient_6-3)"/>
+        <path d="M196.23,174.46V113H103.94v61.47H149.6v12.15H134.1v1h32v-1H150.57V174.46Zm-91.31-1V114h90.34v59.52Z" fill="url(#gradient_6-4)"/>
+      </g>
+      <g id="project-error">
+        <polygon points="97 180 124 180 124 192 176 192 176 180 203 180 203 107 97 107 97 180" fill="#fff"/>
+        <path d="M196.23,174.46V113H103.94v61.47H149.6v12.15H134.1v1h32v-1H150.57V174.46Zm-91.31-1V114h90.34v59.52Z" fill="url(#gradient_6-4)"/>
+        <polygon points="155.32 137.94 150 143.27 144.68 137.94 143.94 138.68 149.27 144 143.94 149.32 144.68 150.06 150 144.73 155.32 150.06 156.06 149.32 150.73 144 156.06 138.68 155.32 137.94" fill="url(#gradient_6-6)"/>
+        <path d="M150,129a15,15,0,1,0,15,15A15,15,0,0,0,150,129Zm0,29a14,14,0,1,1,14-14A14,14,0,0,1,150,158Z" fill="url(#gradient_6-7)"/>
+      </g>
+    </g>
+    <g id="mask">
+      <rect width="300" height="300" fill="#fff"/>
+    </g>
+  </g>
+</svg>

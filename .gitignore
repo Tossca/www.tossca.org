@@ -1,0 +1,16 @@
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+sites/*/private
+
+# Drupal Stuff
+sites/all
+sites/default/files/honeypot
+sites/default/files/js
+
+# Ignore paths that contain cached content.
+.sass-cache
+
+# Ignore .htaccess
+.htaccess

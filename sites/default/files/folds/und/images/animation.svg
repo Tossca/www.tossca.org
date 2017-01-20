@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="298.14" height="288.89" viewBox="0 0 298.14 288.89">
+  <defs>
+    <clipPath id="clip-path" transform="translate(0.07 -8.18)">
+      <path d="M138.91,157.19V136h22.18v21.2L150,163.5ZM135.5,132.5v26.75L150,167.5l14.5-8.25V132.5Z" fill="none"/>
+    </clipPath>
+    <linearGradient id="Unbenannter_Verlauf_2" data-name="Unbenannter Verlauf 2" x1="-227.67" y1="562.54" x2="-225.97" y2="562.54" gradientTransform="matrix(21.51, -6.58, -6.58, -21.51, 8726.88, 10748.62)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00ba45"/>
+      <stop offset="1" stop-color="#00bab4"/>
+    </linearGradient>
+    <clipPath id="clip-path-2" transform="translate(0.07 -8.18)">
+      <polygon points="149.33 155.31 142.9 148.72 145.31 146.25 148.94 149.97 154.46 142.34 157.2 144.42 149.33 155.31" fill="none"/>
+    </clipPath>
+    <linearGradient id="Unbenannter_Verlauf_2-2" x1="-202.31" y1="576.08" x2="-200.62" y2="576.08" gradientTransform="matrix(9.92, -3.03, -3.03, -9.92, 3894.02, 5241.98)" xlink:href="#Unbenannter_Verlauf_2"/>
+  </defs>
+  <title>animation</title>
+  <g id="problem">
+    <path id="contract-6" d="M282,121C271.56,57,216.51,9.25,149.58,9.25,83.31,9.25,27.7,57.13,16.48,120.17" transform="translate(0.07 -8.18)" fill="none" stroke="#efefef" stroke-width="2.14"/>
+    <path id="contract-5" d="M16.48,120.17c-1.37,7.71-1.56,15.63-1.56,23.74C14.92,216.05,70.71,277.54,142,281" transform="translate(0.07 -8.18)" fill="none" stroke="#efefef" stroke-width="2.14"/>
+    <path id="contract-4" d="M282,121c-68.62,25.26-124.75,87.15-140,160" transform="translate(0.07 -8.18)" fill="none" stroke="#efefef" stroke-width="2.14"/>
+    <line id="contract-3" x1="136.07" y1="68.82" x2="142.07" y2="272.82" fill="none" stroke="#efefef" stroke-width="2.14"/>
+    <path id="contract-2" d="M16,121c48.23-1.9,92.05-19.05,120-44" transform="translate(0.07 -8.18)" fill="none" stroke="#efefef" stroke-width="2.14"/>
+    <line id="contract-1" x1="136.07" y1="68.82" x2="282.07" y2="112.82" fill="none" stroke="#efefef" stroke-width="2.14"/>
+    <g id="partner-4">
+      <path d="M282,132.79A11.79,11.79,0,1,1,293.79,121,11.8,11.8,0,0,1,282,132.79Z" transform="translate(0.07 -8.18)" fill="#00b945"/>
+      <path d="M282,113.5a7.5,7.5,0,1,1-7.5,7.5,7.5,7.5,0,0,1,7.5-7.5m0-8.57A16.07,16.07,0,1,0,298.07,121,16.09,16.09,0,0,0,282,104.93Z" transform="translate(0.07 -8.18)" fill="#fff"/>
+    </g>
+    <g id="partner-3">
+      <path d="M142,292.79A11.79,11.79,0,1,1,153.79,281,11.8,11.8,0,0,1,142,292.79Z" transform="translate(0.07 -8.18)" fill="#00b945"/>
+      <path d="M142,273.5a7.5,7.5,0,1,1-7.5,7.5,7.5,7.5,0,0,1,7.5-7.5m0-8.57A16.07,16.07,0,1,0,158.07,281,16.09,16.09,0,0,0,142,264.93Z" transform="translate(0.07 -8.18)" fill="#fff"/>
+    </g>
+    <g id="partner-2">
+      <path d="M16,132.79A11.79,11.79,0,1,1,27.79,121,11.8,11.8,0,0,1,16,132.79Z" transform="translate(0.07 -8.18)" fill="#00b945"/>
+      <path d="M16,113.5A7.5,7.5,0,1,1,8.5,121a7.5,7.5,0,0,1,7.5-7.5m0-8.57A16.07,16.07,0,1,0,32.07,121,16.09,16.09,0,0,0,16,104.93Z" transform="translate(0.07 -8.18)" fill="#fff"/>
+    </g>
+    <g id="partner-1">
+      <path d="M136,88.79A11.79,11.79,0,1,1,147.79,77,11.8,11.8,0,0,1,136,88.79Z" transform="translate(0.07 -8.18)" fill="#00b945"/>
+      <path d="M136,69.5a7.5,7.5,0,1,1-7.5,7.5,7.5,7.5,0,0,1,7.5-7.5m0-8.57A16.07,16.07,0,1,0,152.07,77,16.09,16.09,0,0,0,136,60.93Z" transform="translate(0.07 -8.18)" fill="#fff"/>
+    </g>
+  </g>
+  <g id="solution">
+    <g id="contribution-1" opacity="0.4">
+      <line x1="227.32" y1="219.03" x2="155.58" y2="147.29" fill="none" stroke="#1da73e" stroke-linecap="round" stroke-width="6" stroke-dasharray="0 15"/>
+    </g>
+    <g id="contribution-2" opacity="0.4">
+      <line x1="230.99" y1="222.71" x2="153.74" y2="145.45" fill="none" stroke="#25b4af" stroke-linecap="round" stroke-width="4" stroke-dasharray="0 10"/>
+    </g>
+    <line id="contract-8" x1="61.7" y1="53.42" x2="150.07" y2="141.79" fill="none" stroke="#efefef" stroke-width="2.14"/>
+    <line id="contract-7" x1="25.1" y1="141.79" x2="150.07" y2="141.79" fill="none" stroke="#efefef" stroke-width="2.14"/>
+    <line id="contract-6-2" data-name="contract-6" x1="61.81" y1="230.05" x2="150.07" y2="141.79" fill="none" stroke="#efefef" stroke-width="2.14"/>
+    <line id="contract-5-2" data-name="contract-5" x1="150.07" y1="266.76" x2="150.07" y2="141.79" fill="none" stroke="#efefef" stroke-width="2.14"/>
+    <line id="contract-3-2" data-name="contract-3" x1="275.04" y1="141.79" x2="150.07" y2="141.79" fill="none" stroke="#efefef" stroke-width="2.14"/>
+    <line id="contract-2-2" data-name="contract-2" x1="238.55" y1="53.31" x2="150.07" y2="141.79" fill="none" stroke="#efefef" stroke-width="2.14"/>
+    <line id="contract-1-2" data-name="contract-1" x1="150.07" y1="16.82" x2="150.07" y2="141.79" fill="none" stroke="#efefef" stroke-width="2.14"/>
+    <g id="partner-2-2" data-name="partner-2">
+      <path d="M61.62,73.4a11.79,11.79,0,1,1,8.33-3.45A11.71,11.71,0,0,1,61.62,73.4Z" transform="translate(0.07 -8.18)" fill="#00b945"/>
+      <path d="M61.62,54.12a7.5,7.5,0,1,1-5.3,2.2,7.48,7.48,0,0,1,5.3-2.2m0-8.57A16.07,16.07,0,1,0,73,50.25a16,16,0,0,0-11.36-4.71Z" transform="translate(0.07 -8.18)" fill="#fff"/>
+    </g>
+    <g id="partner-2-3" data-name="partner-2">
+      <path d="M25,161.79A11.79,11.79,0,1,1,36.81,150,11.8,11.8,0,0,1,25,161.79Z" transform="translate(0.07 -8.18)" fill="#00b945"/>
+      <path d="M25,142.5a7.5,7.5,0,1,1-7.5,7.5,7.5,7.5,0,0,1,7.5-7.5m0-8.57A16.07,16.07,0,1,0,41.1,150,16.09,16.09,0,0,0,25,133.93Z" transform="translate(0.07 -8.18)" fill="#fff"/>
+    </g>
+    <g id="partner-3-2" data-name="partner-3">
+      <path d="M61.72,250.07a11.79,11.79,0,1,1,8.33-3.45A11.71,11.71,0,0,1,61.72,250.07Z" transform="translate(0.07 -8.18)" fill="#00b945"/>
+      <path d="M61.72,230.78a7.5,7.5,0,1,1-5.3,2.2,7.48,7.48,0,0,1,5.3-2.2m0-8.57a16.07,16.07,0,1,0,11.36,4.71,16,16,0,0,0-11.36-4.71Z" transform="translate(0.07 -8.18)" fill="#fff"/>
+    </g>
+    <g id="partner-3-3" data-name="partner-3">
+      <path d="M150,286.79A11.79,11.79,0,1,1,161.79,275,11.8,11.8,0,0,1,150,286.79Z" transform="translate(0.07 -8.18)" fill="#00b945"/>
+      <path d="M150,267.5a7.5,7.5,0,1,1-7.5,7.5,7.5,7.5,0,0,1,7.5-7.5m0-8.57A16.07,16.07,0,1,0,166.07,275,16.09,16.09,0,0,0,150,258.93Z" transform="translate(0.07 -8.18)" fill="#fff"/>
+    </g>
+    <g id="partner-4-2" data-name="partner-4">
+      <path d="M238.28,250.07a11.79,11.79,0,1,1,8.33-3.45A11.71,11.71,0,0,1,238.28,250.07Z" transform="translate(0.07 -8.18)" fill="#00b945"/>
+      <path d="M238.28,230.78A7.5,7.5,0,1,1,233,233a7.48,7.48,0,0,1,5.3-2.2m0-8.57a16.07,16.07,0,1,0,11.36,4.71,16,16,0,0,0-11.36-4.71Z" transform="translate(0.07 -8.18)" fill="#fff"/>
+    </g>
+    <g id="partner-4-3" data-name="partner-4">
+      <path d="M275,161.79A11.79,11.79,0,1,1,286.76,150,11.8,11.8,0,0,1,275,161.79Z" transform="translate(0.07 -8.18)" fill="#00b945"/>
+      <path d="M275,142.5a7.5,7.5,0,1,1-7.5,7.5,7.5,7.5,0,0,1,7.5-7.5m0-8.57A16.07,16.07,0,1,0,291,150,16.09,16.09,0,0,0,275,133.93Z" transform="translate(0.07 -8.18)" fill="#fff"/>
+    </g>
+    <g id="partner-1-2" data-name="partner-1">
+      <path d="M238.5,73.29a11.79,11.79,0,1,1,8.33-3.45A11.71,11.71,0,0,1,238.5,73.29Z" transform="translate(0.07 -8.18)" fill="#00b945"/>
+      <path d="M238.5,54a7.5,7.5,0,1,1-5.3,2.2,7.48,7.48,0,0,1,5.3-2.2m0-8.57a16.07,16.07,0,1,0,11.36,4.71,16,16,0,0,0-11.36-4.71Z" transform="translate(0.07 -8.18)" fill="#fff"/>
+    </g>
+    <g id="partner-1-3" data-name="partner-1">
+      <path d="M150,36.79A11.79,11.79,0,1,1,161.79,25,11.8,11.8,0,0,1,150,36.79Z" transform="translate(0.07 -8.18)" fill="#00b945"/>
+      <path d="M150,17.5a7.5,7.5,0,1,1-7.5,7.5,7.5,7.5,0,0,1,7.5-7.5m0-8.57A16.07,16.07,0,1,0,166.07,25,16.09,16.09,0,0,0,150,8.93Z" transform="translate(0.07 -8.18)" fill="#fff"/>
+    </g>
+    <g id="tossca">
+      <path d="M150,174.4l-20.5-11.66V126.5h41v36.24Z" transform="translate(0.07 -8.18)" fill="#fff"/>
+      <g clip-path="url(#clip-path)">
+        <polygon points="126.02 127.31 162.09 116.01 174.12 156.32 138.05 167.63 126.02 127.31" fill="url(#Unbenannter_Verlauf_2)"/>
+      </g>
+      <g clip-path="url(#clip-path-2)">
+        <polygon points="139.43 135.26 156.05 130.05 160.81 146.02 144.19 151.23 139.43 135.26" fill="url(#Unbenannter_Verlauf_2-2)"/>
+      </g>
+    </g>
+  </g>
+</svg>
