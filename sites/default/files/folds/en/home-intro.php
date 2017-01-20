@@ -1,10 +1,10 @@
 <div class="fold--intro fold--intro__front editor--content editor--content__consider-margins">
   <h1 class="font-size__xxxxl base--clearfix">
-    <div class="base--clearfix">EN Open Source rechtssicher.</div>
-    <div class="fold--intro-signature-prefix">Mit nur einer </div><div class="fold--intro-signature">Unterschrift</div>
+    <div class="base--clearfix">Open Source Legally Safe.</div>
+    <div class="fold--intro-signature-prefix">With just one </div><div class="fold--intro-signature">Signature</div>
   </h1>
   <p class="font-size__xl">
-    Erschließen Sie neue Potentiale. Profitieren Sie von den Vorteilen, Open Source Lösungen kooperativ zu entwickeln und gemeinsam mit anderen Unternehmen zu veröffentlichen. Mit der Unterstützung von Tossca geht das ganz einfach.
+    Embrace the advantages of developing and publishing Open Source Software in collaboration with other companies. Tossca helps to make this collaboration easy.
   </p>
 
   <p class="base--text-align__center base--top__50">

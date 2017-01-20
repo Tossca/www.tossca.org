@@ -2,10 +2,10 @@
   <div class="roles js--roles">
     <ul class="tabs--list roles--tabs mobile__hidden">
       <li>
-        <a href="#init-company">Init. company</a>
+        <a href="#init-company">Init. Company</a>
       </li>
       <li>
-        <a href="#governance">Project lead</a>
+        <a href="#governance">Project Manager</a>
       </li>
       <li>
         <a href="#license">License</a>
@@ -14,7 +14,7 @@
         <a href="#contrib-company">Company</a>
       </li>
       <li>
-        <a href="#individual">Indiv. contributor</a>
+        <a href="#individual">Indiv. Contributor</a>
       </li>
     </ul>
     <figure>
@@ -28,28 +28,28 @@
       <figcaption>
         <div class="roles--caption" id="init-company-caption">
           <div class="roles--caption-figure roles--caption-figure__init-company mobile__only"></div>
-          <h3>Initiierendes Kontributionsunternehmen</h3>
-          <p>Das Unternehmen startet das Projekt, wählt die Lizenz, räumt Tossca Rechte ein und benennt den ersten Projektverantwortlichen.</p>
+          <h3>Initiating Company</h3>
+            <p>The company starts the project, selects the license, grants rights to Tossca and selects the initial project manager.</p>
         </div>
         <div class="roles--caption even" id="governance-caption">
         <div class="roles--caption-figure roles--caption-figure__governance mobile__only"></div>
-          <h3>Projektverantwortlicher</h3>
-          <p>Der Projektverantwortliche sorgt dafür, dass nur Beiträge von Tossca-Kontributoren angenommen werden.</p>
+          <h3>Project Manager</h3>
+            <p>The project manager has to ensure that only contributions by people who have signed an agreement with Tossca are accepted.</p>
         </div>
         <div class="roles--caption" id="license-caption">
         <div class="roles--caption-figure roles--caption-figure__license mobile__only"></div>
-          <h3>Lizenz</h3>
-          <p>Das Projekt wählt seine Lizenz selber, Tossca tritt als Lizenzgeber für das Projekt auf.</p>
+          <h3>License</h3>
+            <p>The project selects its license, Tossca grants this license to the users of the project.</p>
         </div>
         <div class="roles--caption even" id="contrib-company-caption">
         <div class="roles--caption-figure roles--caption-figure__contrib-company mobile__only"></div>
-          <h3>Kontributionsunternehmen</h3>
-          <p>Unternehmen räumen Angestellten das Recht ein, als Kontributoren oder Projektverantwortliche an Projekten teilzunehmen.</p>
+          <h3>Contributing Company</h3>
+            <p>Companies allow selected employees to collaborate on Tossca projects as contributors or project managers.</p>
         </div>
         <div class="roles--caption" id="individual-caption">
         <div class="roles--caption-figure roles--caption-figure__individual mobile__only"></div>
-          <h3>Individualkontributor</h3>
-          <p>Kontributoren können als Angestellte eines Kontributionsunternehmens oder als private Kontributoren beitragen.</p>
+          <h3>Individual Contributors</h3>
+          <p>Contributors may be employees of contributng companies or collaborate on their own terms.</p>
         </div>
       </figcaption>
     </figure>
