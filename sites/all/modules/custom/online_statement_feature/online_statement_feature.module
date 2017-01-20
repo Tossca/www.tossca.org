@@ -1,0 +1,388 @@
+<?php
+/**
+ * @file
+ * Code for the online_statement_feature feature.
+ */
+
+include_once 'online_statement_feature.features.inc';
+
+/**
+* Implements views_api_alter().
+*/
+function online_statement_feature_views_api_alter(&$list) {
+  $list['online_statement_feature']['path'] = drupal_get_path('module', 'online_statement_feature');
+  $list['online_statement_feature']['template path'] = drupal_get_path('module', 'online_statement_feature') . '/templates';
+}
+
+
+/**
+ * Implements hook_menu().
+ */
+function online_statement_feature_menu() {
+  $items['admin/tossca/online-statement'] = array(
+    'title' => 'Einstellung Online-Erklärung',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('online_statement_feature_admin_form'),
+    'access arguments' => array('administer online statements'),
+  );
+
+  $items['js/online-statement/company/%node/address'] = array(
+    'title' => 'Adressen Kontributionsunternehmen',
+    'page callback' => 'online_statement_js_address',
+    'page arguments' => array(3),
+    'access arguments' => array('access content'),
+  );
+
+  return $items;
+}
+
+/**
+ * Implements hook_permission().
+ */
+function online_statement_feature_permission() {
+  return array(
+    'administer online statements' =>  array(
+      'title' => t('Administer Online Statements'),
+      'restrict access' => TRUE,
+      'description' => t('Perform administration tasks for online statements'),
+    ),
+    'access online statements overview' =>  array(
+      'title' => t('Access Online Statements Overview'),
+      'restrict access' => TRUE,
+      'description' => t('Access the overview page of all online statements'),
+    ),
+  );
+}
+
+/**
+ * Implements hook_theme().
+ */
+function online_statement_feature_theme($existing, $type, $theme, $path) {
+  return array(
+    'online_statement_node_form' => array(
+      'render element' => 'form',
+      'template' => 'templates/online-statement-node-form',
+    ),
+    'node__company__address_only' => array(
+      'render element' => 'element',
+      'template' => 'templates/node--company--address-only',
+    ),
+  );
+}
+
+
+/**
+ * Implements hook_block_info().
+ */
+function online_statement_feature_block_info() {
+  $blocks['online_statement_add'] = array(
+    'info' => t('Online-Erklärung Formular'),
+    'cache' => DRUPAL_NO_CACHE
+  );
+
+  return $blocks;
+}
+
+
+/**
+ * Implements hook_block_view().
+ */
+function online_statement_feature_block_view($delta = '') {
+  $block = array();
+  global $user;
+  
+  switch ($delta) {
+    case 'online_statement_add':
+      // retrieve node form
+      module_load_include('inc', 'node', 'node.pages');
+      $block['subject'] = '<none>';
+      $block['content'] = node_add('online_statement');
+      break;
+  }
+
+  return $block;
+}
+
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function online_statement_feature_form_online_statement_node_form_alter(&$form, &$form_state) {
+  global $language;
+  if (arg(0) == 'node' && arg(2) == 'edit') return;
+
+  $form['#attributes']['class'][] = 'form--label__inline';
+
+  $form['#after_build'][] = 'online_statement_feature_item_node_form_after_build';
+  $form['#validate'][] = 'online_statement_feature_add_validate';
+  $form['actions']['submit']['#submit'][] = 'online_statement_feature_add_submit';
+
+
+  $form['field_online_statement_terms'][LANGUAGE_NONE]['#title'] = t('Hereby i agree to the statement above', array(), array('content' => 'online_statement'));
+  $form['actions']['submit']['#value'] = t('Sign agreement', array(), array('content' => 'online_statement'));
+  $form['actions']['submit']['#attributes']['class'][] = 'button__bordered__white';
+
+  $form['field_statement_cmpny_individual'][LANGUAGE_NONE]['#options']['_none'] = t('Choose company');
+  $form['field_statement_cmpny_governance'][LANGUAGE_NONE]['#options']['_none'] = t('Choose company');
+  $form['field_statement_cmpny_individual'][LANGUAGE_NONE]['#title_display'] = 'invisible';
+  $form['field_statement_cmpny_governance'][LANGUAGE_NONE]['#title_display'] = 'invisible';
+
+  $query = drupal_get_query_parameters();
+  if (isset($query['governance']) && $query['governance']) {
+    $form['field_online_statement_type'][LANGUAGE_NONE]['#default_value'] = array('12');
+  }
+
+  
+  /**
+   * HEADLINE
+   */
+  $form['online_statement_headline_individual'] = array(
+    '#type' => 'container',
+    'headline' => array(
+      '#markup' => '<h2>' . t('Agreement for Individual Contributors <span>(employed at a Contribution Company)</span>') . '</h2>',
+    ),
+    '#states' => array(
+      'visible' => array(
+        ':input[name="field_online_statement_type[und]"]' => array('value' => '13'),
+      ),
+    )
+  );
+
+  $form['online_statement_headline_governance'] = array(
+    '#type' => 'container',
+    'headline' => array(
+      '#markup' => '<h2>' . t('Agreement for Project Owners <span>(employed at a Contribution Company)</span>') . '</h2>',
+    ),
+    '#states' => array(
+      'visible' => array(
+        ':input[name="field_online_statement_type[und]"]' => array('value' => '12'),
+      ),
+    )
+  );
+
+  /**
+   * HEADER
+   */
+
+  // just register the element id for #states
+  // div is hardcoded in online-statement-node-form.tpl.php
+  // as form elements need to be rendered in form template
+  $form['online_statement_header_left_individual'] = array(
+    '#type' => 'container',
+    // 'company' => array(
+    //   $form['field_statement_cmpny_individual'],
+    // ),
+    // 'address' => array(
+    //   '#markup' => '<div class="statement--adress-target" id="statement--adress-target__individual"></div>',
+    // ),
+    // 'identifier' => array(
+    //   '#markup' => '<p class="font-size__s base--top__30">' . t('– nachfolgend „Sie“ oder „Individualkontributor“ genannt –') . '</p>'
+    // ),
+    '#states' => array(
+      'visible' => array(
+        ':input[name="field_online_statement_type[und]"]' => array('value' => '13'),
+      ),
+    )
+  );
+
+  $form['online_statement_header_right_individual'] = array(
+    '#type' => 'container',
+    '#attributes' => array(
+      'class' => array('font-size__l'),
+    ),
+    'statement' => array(
+      '#markup' => variable_get("online_statement_feature_address_tossca_{$language->language}", ""),
+    ),
+    '#states' => array(
+      'visible' => array(
+        ':input[name="field_online_statement_type[und]"]' => array('value' => '13'),
+      ),
+    )
+  );
+
+
+  $form['online_statement_header_left_governance'] = array(
+    '#type' => 'container',
+    'identifier' => array(
+      '#markup' => '<p class="font-size__s">' . t('Hereafter “You” or “Project Manager”') . '</p>'
+    ),
+    '#states' => array(
+      'visible' => array(
+        ':input[name="field_online_statement_type[und]"]' => array('value' => '12'),
+      ),
+    )
+  );
+
+  // just register the element id for #states
+  // div is hardcoded in online-statement-node-form.tpl.php
+  // as form elements need to be rendered in form template
+  $form['online_statement_header_right_governance'] = array(
+    '#type' => 'container',
+    // '#attributes' => array(
+    //   'class' => array('font-size__l'),
+    // ),
+    // 'tossca' => array(
+    //   '#markup' => variable_get("online_statement_feature_address_tossca_{$language->language}", ""),
+    // ),
+    // 'company' => array(
+    //   $form['field_statement_cmpny_governance'],
+    // ),
+    // 'address' => array(
+    //   '#markup' => '<div class="statement--adress-target" id="statement--adress-target__governance"></div>',
+    // ),
+    '#states' => array(
+      'visible' => array(
+        ':input[name="field_online_statement_type[und]"]' => array('value' => '12'),
+      ),
+    )
+  );
+
+
+
+
+  /**
+   * BODY
+   */
+
+  // Text individual
+  $form['online_statement_text_individual'] = array(
+    '#type' => 'container',
+    'statement' => array(
+      '#markup' => variable_get("online_statement_feature_statement_individual_{$language->language}", ""),
+    ),
+    '#states' => array(
+      'visible' => array(
+        ':input[name="field_online_statement_type[und]"]' => array('value' => '13'),
+      ),
+    )
+  );
+
+  // Text governance
+  $form['online_statement_text_governance'] = array(
+    '#type' => 'container',
+    'statement' => array(
+      '#markup' => variable_get("online_statement_feature_statement_governance_{$language->language}", ""),
+    ),
+    '#states' => array(
+      'visible' => array(
+        ':input[name="field_online_statement_type[und]"]' => array('value' => '12'),
+      ),
+    )
+  );
+}
+
+
+function online_statement_feature_add_validate(&$form, &$form_state) {
+  $input = $form_state['input'];
+
+  // dsm($input);
+
+  // Governance Company
+  if ($input['field_online_statement_type'][LANGUAGE_NONE] == 12) {
+    if (!$input['field_statement_cmpny_governance'][LANGUAGE_NONE] || $input['field_statement_cmpny_governance'][LANGUAGE_NONE] == '_none') {
+      form_set_error('field_statement_cmpny_governance', t('Please choose the company'));
+    }
+  }
+
+  // Individual Company
+  if ($input['field_online_statement_type'][LANGUAGE_NONE] == 13) {
+    if (!$input['field_statement_cmpny_individual'][LANGUAGE_NONE] || $input['field_statement_cmpny_individual'][LANGUAGE_NONE] == '_none') {
+      form_set_error('field_statement_cmpny_individual', t('Please choose the company'));
+    }
+  }
+}
+
+
+function online_statement_feature_add_submit(&$form, &$form_state) {
+  global $language;
+  global $conf;
+  drupal_get_messages();
+  // redirect to thank you page
+  $form_state['redirect'] = $conf['online_statement_feature_added_nid'][$language->language];
+}
+
+
+function online_statement_feature_item_node_form_after_build(&$form, &$form_state) {
+  // Type
+  global $language;
+
+  $form['field_online_statement_type'][LANGUAGE_NONE]['#title_display'] = 'invisible';
+  if ($language->language == 'en') {
+    $form['field_online_statement_type'][LANGUAGE_NONE]['#prefix'] = '<span class="label">I would like to issue a statement as </span>';
+  }
+  if ($language->language == 'de') {
+    $form['field_online_statement_type'][LANGUAGE_NONE]['#prefix'] = '<span class="label">Ich möchte eine Erklärung als </span>';
+    $form['field_online_statement_type'][LANGUAGE_NONE]['#suffix'] = '<span class="label"> abgeben.</span>';
+  }
+
+  // dsm($form);
+
+  return $form;
+}
+
+
+// function online_statement_feature_field_group_build_pre_render_alter(&$element) {
+  // if (isset($element['#form_id'])) {
+  //   if ($element['#form_id'] == 'online_statement_node_form') {
+
+  //     // Hide / Show Offer Infos
+  //     $offer_state_conditions = array(
+  //       'visible' => array(
+  //         ':input[name="field_online_statement_type[und]"]' => array('value' => '12'),
+  //       ),
+  //     );
+  //     $element['group_statement_company_gov']['#states'] = $offer_state_conditions;
+  //   }
+  // }
+// }
+
+/**
+ * Implements hook_node_view().
+ */
+function online_statement_feature_node_view($node, $view_mode, $langcode) {
+  if ($node->type == 'company') {
+    if ($view_mode == 'address_only') {
+      $wrapper = entity_metadata_wrapper('node', $node);
+      if (!empty($wrapper->field_company_address) && $wrapper->field_company_address->value()) {
+        $node->content['company_address'] = $wrapper->field_company_address->value();
+      }
+    }
+  }
+}
+
+
+function online_statement_js_address($node) {
+  $node_view = node_view($node, 'address_only');
+  $out = array(
+    'success' => TRUE,
+    'data' => render($node_view),
+  );
+  return drupal_json_output($out);
+}
+
+
+function online_statement_feature_admin_form($form_state) {
+  $languages = language_list();
+
+  foreach ($languages as $key => $lang) {
+    $form["online_statement_feature_statement_individual_{$key}"] = array(
+      '#type' => 'textarea',
+      '#title' => 'Text Erklärung Individualkontributor ' . $lang->name,
+      '#default_value' => variable_get("online_statement_feature_statement_individual_{$key}", ''),
+    );
+
+    $form["online_statement_feature_statement_governance_{$key}"] = array(
+      '#type' => 'textarea',
+      '#title' => 'Text Erklärung Projektverantwortlicher ' . $lang->name,
+      '#default_value' => variable_get("online_statement_feature_statement_governance_{$key}", ''),
+    );
+
+    $form["online_statement_feature_address_tossca_{$key}"] = array(
+      '#type' => 'textarea',
+      '#title' => 'Adresse Tossca ' . $lang->name,
+      '#default_value' => variable_get("online_statement_feature_address_tossca_{$key}", ''),
+    );
+  }
+
+  return system_settings_form($form);
+}

@@ -6,7 +6,6 @@ sites/*/private
 
 # Drupal Stuff
 sites/all/libraries
-sites/all/modules
 sites/all/themes/ember
 sites/default/files/honeypot
 sites/default/files/js
