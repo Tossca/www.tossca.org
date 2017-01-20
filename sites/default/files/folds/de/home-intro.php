@@ -4,7 +4,7 @@
     <div class="fold--intro-signature-prefix">Mit nur einer </div><div class="fold--intro-signature">Unterschrift</div>
   </h1>
   <p class="font-size__xl">
-    Erschließen Sie neue Potentiale. Profitieren Sie von den Vorteilen, Open Source Lösungen kooperativ zu entwickeln und gemeinsam mit anderen Unternehmen zu veröffentlichen. Mit der Unterstützung von TOSSCA geht das ganz einfach.
+    Erschließen Sie neue Potentiale. Profitieren Sie von den Vorteilen, Open Source Lösungen kooperativ zu entwickeln und gemeinsam mit anderen Unternehmen zu veröffentlichen. Mit der Unterstützung von Tossca geht das ganz einfach.
   </p>
 
   <p class="base--text-align__center base--top__50">
