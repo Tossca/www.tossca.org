@@ -1,0 +1,234 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="931.18" height="502.3" viewBox="0 0 931.18 502.3">
+  <defs>
+    <linearGradient id="Unbenannter_Verlauf_36" data-name="Unbenannter Verlauf 36" x1="866.82" y1="228.64" x2="889.34" y2="228.64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00b945"/>
+      <stop offset="1" stop-color="#00b9b3"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_36-2" x1="884.99" y1="228.64" x2="914.04" y2="228.64" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-3" x1="880.96" y1="217.01" x2="890.43" y2="217.01" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-4" x1="890.43" y1="217.01" x2="899.9" y2="217.01" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-5" x1="889.68" y1="233.18" x2="891.18" y2="233.18" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-6" x1="879.52" y1="200.73" x2="901.34" y2="200.73" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-7" x1="880.1" y1="219.81" x2="888.97" y2="219.81" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-8" x1="891.96" y1="219.81" x2="900.83" y2="219.81" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-9" x1="880.23" y1="195.18" x2="898.09" y2="195.18" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-10" x1="691.47" y1="194.2" x2="701.68" y2="194.2" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-11" x1="706.71" y1="194.2" x2="716.92" y2="194.2" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-12" x1="721.96" y1="194.2" x2="732.17" y2="194.2" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-13" x1="691.47" y1="182.33" x2="701.68" y2="182.33" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-14" x1="706.71" y1="182.33" x2="716.92" y2="182.33" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-15" x1="721.96" y1="182.33" x2="732.17" y2="182.33" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-16" x1="691.47" y1="206.07" x2="701.68" y2="206.07" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-17" x1="706.71" y1="206.07" x2="716.92" y2="206.07" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-18" x1="721.96" y1="206.07" x2="732.17" y2="206.07" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-19" x1="691.47" y1="217.94" x2="701.68" y2="217.94" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-20" x1="706.71" y1="217.94" x2="716.92" y2="217.94" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-21" x1="721.96" y1="217.94" x2="732.17" y2="217.94" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-22" x1="683.85" y1="201.94" x2="739.79" y2="201.94" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-23" x1="671.54" y1="242.61" x2="691.13" y2="242.61" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-24" x1="733.59" y1="242.61" x2="753.19" y2="242.61" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-25" x1="189.39" y1="228.64" x2="211.91" y2="228.64" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-26" x1="207.56" y1="228.64" x2="236.61" y2="228.64" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-27" x1="203.53" y1="217.01" x2="213" y2="217.01" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-28" x1="213" y1="217.01" x2="222.47" y2="217.01" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-29" x1="212.25" y1="233.18" x2="213.75" y2="233.18" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-30" x1="202.09" y1="200.73" x2="223.91" y2="200.73" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-31" x1="202.67" y1="219.81" x2="210.97" y2="219.81" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-32" x1="214.81" y1="219.81" x2="223.4" y2="219.81" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-33" x1="202.8" y1="195.18" x2="220.66" y2="195.18" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-34" x1="208.99" y1="225.53" x2="217.36" y2="225.53" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-35" x1="208.56" y1="235.16" x2="217.79" y2="235.16" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-36" x1="204.31" y1="176.03" x2="221.62" y2="176.03" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-37" x1="202.41" y1="176.12" x2="213.9" y2="176.12" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-38" x1="212.14" y1="176.12" x2="223.51" y2="176.12" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-39" x1="50.03" y1="148.41" x2="56.37" y2="148.41" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-40" x1="32.31" y1="194.2" x2="42.52" y2="194.2" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-41" x1="47.55" y1="194.2" x2="57.76" y2="194.2" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-42" x1="62.79" y1="194.2" x2="73" y2="194.2" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-43" x1="32.31" y1="182.33" x2="42.52" y2="182.33" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-44" x1="47.55" y1="182.33" x2="57.76" y2="182.33" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-45" x1="62.79" y1="182.33" x2="73" y2="182.33" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-46" x1="32.31" y1="206.07" x2="42.52" y2="206.07" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-47" x1="47.55" y1="206.07" x2="57.76" y2="206.07" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-48" x1="62.79" y1="206.07" x2="73" y2="206.07" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-49" x1="32.31" y1="217.94" x2="42.52" y2="217.94" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-50" x1="47.55" y1="217.94" x2="57.76" y2="217.94" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-51" x1="62.79" y1="217.94" x2="73" y2="217.94" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-52" x1="24.69" y1="201.94" x2="80.62" y2="201.94" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-53" x1="12.37" y1="242.61" x2="31.97" y2="242.61" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-54" x1="74.43" y1="242.61" x2="94.03" y2="242.61" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-55" x1="43.58" y1="136.61" x2="62.82" y2="136.61" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-56" x1="52.81" y1="130.95" x2="59.72" y2="130.95" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-57" x1="440.02" y1="210.59" x2="489.6" y2="210.59" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-58" x1="467.48" y1="241.63" x2="476.78" y2="241.63" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-59" x1="463.51" y1="228.79" x2="480.73" y2="228.79" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-60" x1="460.36" y1="24.79" x2="471.57" y2="24.79" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-61" x1="448.55" y1="24.79" x2="456.54" y2="24.79" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-62" x1="475.45" y1="24.79" x2="483.43" y2="24.79" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-63" x1="465.24" y1="53.83" x2="466.74" y2="53.83" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-64" x1="453.29" y1="59.27" x2="478.69" y2="59.27" xlink:href="#Unbenannter_Verlauf_36"/>
+    <linearGradient id="Unbenannter_Verlauf_36-65" x1="428.95" y1="24.79" x2="503.03" y2="24.79" xlink:href="#Unbenannter_Verlauf_36"/>
+    <clipPath id="clip-path">
+      <path d="M445.89,453.46v-36.7h38.42v36.72L465.1,464.39ZM440,410.69V457l25.12,14.29L490.21,457V410.69Z" fill="none"/>
+    </clipPath>
+    <linearGradient id="Unbenannter_Verlauf_3" data-name="Unbenannter Verlauf 3" x1="-306.5" y1="274.66" x2="-303.56" y2="274.66" gradientTransform="translate(5213.72 -7472.46) rotate(-17.01) scale(22.49)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00ba45"/>
+      <stop offset="1" stop-color="#00bab4"/>
+    </linearGradient>
+    <clipPath id="clip-path-2">
+      <polygon points="463.94 450.2 452.8 438.79 456.97 434.51 463.26 440.95 472.82 427.74 477.57 431.34 463.94 450.2" fill="none"/>
+    </clipPath>
+    <linearGradient id="Unbenannter_Verlauf_3-2" x1="-269.93" y1="296.78" x2="-267.01" y2="296.78" gradientTransform="matrix(9.92, -3.03, 3.03, 9.92, 2230.35, -3318.87)" xlink:href="#Unbenannter_Verlauf_3"/>
+  </defs>
+  <title>_roles</title>
+  <g id="Ebene_2" data-name="Ebene 2">
+    <g id="roles">
+      <g id="paths-background">
+        <path d="M510.28,434.62c215.2-9.18,383.05-84.55,383.05-176.16,0-91.24-166.49-166.36-380.43-176" fill="none" stroke="#efefef"/>
+        <path d="M510.28,433c123.75-14.21,218-87,218-174.58,0-87-93-159.39-215.48-174.29" fill="none" stroke="#efefef"/>
+        <path d="M419.09,84.19C296.63,99.12,203.73,171.46,203.73,258.46c0,87.19,93.31,159.67,216.18,174.37" fill="none" stroke="#efefef"/>
+        <path d="M419.09,82.42c-213.95,9.68-380.44,84.8-380.44,176S205.57,425,419.91,434.54" fill="none" stroke="#efefef"/>
+        <line x1="465.99" y1="109.43" x2="465.99" y2="391.04" fill="none" stroke="#efefef"/>
+      </g>
+      <g id="individual">
+        <path id="individual-path" d="M510.28,434.62c215.2-9.18,383.05-84.55,383.05-176.16,0-91.24-166.49-166.36-380.43-176" fill="none" stroke="#00b945" stroke-miterlimit="10" stroke-width="1.81" opacity="0.4"/>
+        <g id="individual-illu">
+          <path d="M884.74,303c23,0,41.68-29.9,41.68-66.78s-18.66-66.78-41.68-66.78-41.68,29.9-41.68,66.78S861.72,303,884.74,303" fill="#fff"/>
+          <text transform="translate(856.02 263.73)" font-size="15.48" fill="#c3c3c3" font-family="WorkSans-Light, Work Sans">Individual<tspan x="-6.35" y="18.58">contributor</tspan></text>
+          <g opacity="0.2">
+            <g>
+              <path d="M889.34,242.57H868.15l-.58-13.09s0-7,3.82-9.6a65.81,65.81,0,0,1,10.34-5.21" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36)"/>
+              <path d="M885,242.57h27.73l.58-13.09s0-7-3.82-9.6a65.81,65.81,0,0,0-10.34-5.21" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-2)"/>
+              <path d="M882,209.93l-.29,4.74s2.9,8.71,8.71,8.71" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-3)"/>
+              <path d="M898.85,209.93l.29,4.74s-2.9,8.71-8.71,8.71" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-4)"/>
+              <line x1="890.43" y1="223.38" x2="890.43" y2="242.98" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-5)"/>
+              <path d="M900.59,204.77v-8.09h0a10.15,10.15,0,0,0-20.29,0h0v8.09h0a10.15,10.15,0,0,0,20.29,0Z" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-6)"/>
+              <path d="M881.58,215s-.73,8-.73,8.71,8-.73,8-.73" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-7)"/>
+              <path d="M899.35,215s.73,8,.73,8.71-8-.73-8-.73" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-8)"/>
+              <path d="M880.23,198.45c7.15,0,12.66-6.08,12.66-6.08s3.95,6.08,5.2,6.08" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-9)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="contrib-company">
+        <path id="contrib-company-path" d="M510.28,433c123.75-14.21,218-87,218-174.58,0-87-93-159.39-215.48-174.29" fill="none" stroke="#00b945" stroke-miterlimit="10" stroke-width="1.81" opacity="0.4"/>
+        <g id="contrib-company-illu">
+          <path d="M714.27,303c35,0,63.33-38,63.33-84.94s-28.35-84.94-63.33-84.94-63.33,38-63.33,84.94S679.3,303,714.27,303" fill="#fff"/>
+          <text transform="translate(673.89 263.73)" font-size="15.48" fill="#c3c3c3" font-family="WorkSans-Light, Work Sans"><tspan letter-spacing="-0.04em">Contributing</tspan><tspan x="7.29" y="18.58" letter-spacing="-0.04em">company</tspan><tspan x="70.61" y="18.58"> </tspan></text>
+          <g opacity="0.2">
+            <g>
+              <rect x="692.22" y="190.93" width="8.71" height="6.53" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-10)"/>
+              <rect x="707.46" y="190.93" width="8.71" height="6.53" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-11)"/>
+              <rect x="722.71" y="190.93" width="8.71" height="6.53" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-12)"/>
+              <rect x="692.22" y="179.06" width="8.71" height="6.53" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-13)"/>
+              <rect x="707.46" y="179.06" width="8.71" height="6.53" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-14)"/>
+              <rect x="722.71" y="179.06" width="8.71" height="6.53" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-15)"/>
+              <rect x="692.22" y="202.8" width="8.71" height="6.53" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-16)"/>
+              <rect x="707.46" y="202.8" width="8.71" height="6.53" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-17)"/>
+              <rect x="722.71" y="202.8" width="8.71" height="6.53" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-18)"/>
+              <rect x="692.22" y="214.67" width="8.71" height="6.53" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-19)"/>
+              <rect x="707.46" y="214.67" width="8.71" height="6.53" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-20)"/>
+              <rect x="722.71" y="214.67" width="8.71" height="6.53" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-21)"/>
+              <polygon points="739.04 172.21 711.82 161.32 684.6 172.21 684.6 242.61 698.75 242.61 698.75 229.55 724.88 229.55 724.88 242.61 725.02 242.61 739.04 242.61 739.04 172.21" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-22)"/>
+              <line x1="691.13" y1="242.61" x2="671.54" y2="242.61" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-23)"/>
+              <line x1="753.19" y1="242.61" x2="733.59" y2="242.61" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-24)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="governance">
+        <path id="governance-path" d="M419.91,432.84C297,418.13,203.73,345.65,203.73,258.46c0-87,92.9-159.34,215.36-174.28" fill="none" stroke="#00b945" stroke-miterlimit="10" stroke-width="1.81" opacity="0.4"/>
+        <g id="governance-illu">
+          <path d="M220.28,293.3c28.61,0,51.8-31,51.8-69.24s-23.19-69.24-51.8-69.24-51.8,31-51.8,69.24,23.19,69.24,51.8,69.24" fill="#fff"/>
+          <text transform="translate(170.13 273.02)" font-size="15.48" fill="#c3c3c3" font-family="WorkSans-Light, Work Sans">P<tspan x="9.09" y="0" letter-spacing="-0.02em">r</tspan><tspan x="14.59" y="0" letter-spacing="0em">oject </tspan><tspan x="55.04" y="0" letter-spacing="0em">l</tspan><tspan x="59.24" y="0">ead</tspan></text>
+          <g opacity="0.2">
+            <g>
+              <path d="M211.91,242.57H190.72l-.58-13.09s0-7,3.82-9.6a65.81,65.81,0,0,1,10.34-5.21" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-25)"/>
+              <path d="M207.56,242.57h27.73l.58-13.09s0-7-3.82-9.6a65.81,65.81,0,0,0-10.34-5.21" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-26)"/>
+              <path d="M204.58,209.93l-.29,4.74s2.9,8.71,8.71,8.71" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-27)"/>
+              <path d="M221.42,209.93l.29,4.74s-2.9,8.71-8.71,8.71" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-28)"/>
+              <line x1="213" y1="223.38" x2="213" y2="242.98" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-29)"/>
+              <path d="M223.16,204.77v-8.09h0a10.15,10.15,0,0,0-20.29,0h0v8.09h0a10.15,10.15,0,0,0,20.29,0Z" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-30)"/>
+              <path d="M204.15,215s-.73,8-.73,8.71,7.4-.73,7.4-.73" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-31)"/>
+              <path d="M221.92,215s.73,8,.73,8.71S215,223,215,223" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-32)"/>
+              <path d="M202.8,198.45c7.15,0,12.66-6.08,12.66-6.08s3.95,6.08,5.2,6.08" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-33)"/>
+              <polygon points="216.32 223.36 210.03 223.36 211.47 227.71 214.88 227.71 216.32 223.36" fill="#fff"/>
+              <polygon points="216.32 223.36 210.03 223.36 211.47 227.71 214.88 227.71 216.32 223.36" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-34)"/>
+              <polygon points="211.73 227.71 209.43 242.61 216.91 242.61 214.62 227.71 211.73 227.71" fill="#fff"/>
+              <polygon points="211.73 227.71 209.43 242.61 216.91 242.61 214.62 227.71 211.73 227.71" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-35)"/>
+              <polygon points="212.96 171.02 205.73 181.63 220.2 181.63 212.96 171.02" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-36)"/>
+              <polygon points="203.16 171.79 203.16 181.63 212.19 181.63 203.16 171.79" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-37)"/>
+              <polygon points="222.76 171.8 222.76 181.63 213.84 181.63 222.76 171.8" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-38)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="init-company">
+        <path id="init-company-path" d="M419.91,434.54C205.57,425,38.65,349.82,38.65,258.46s166.49-166.37,380.44-176" fill="none" stroke="#00b945" stroke-miterlimit="10" stroke-width="1.81" opacity="0.4"/>
+        <g id="init-company-illu">
+          <path d="M63.46,320.4c35,0,63.46-37.07,63.46-82.79s-28.41-82.79-63.46-82.79S0,191.88,0,237.61,28.41,320.4,63.46,320.4" fill="#fff"/>
+          <text transform="translate(28.14 263.73)" font-size="15.48" fill="#c3c3c3" font-family="WorkSans-Light, Work Sans"><tspan letter-spacing="-0.04em">Initiating<tspan x="-13.42" y="18.58">Contributing</tspan></tspan><tspan x="-6.12" y="37.16" letter-spacing="-0.04em">company</tspan><tspan x="57.19" y="37.16"> </tspan></text>
+          <g opacity="0.2">
+            <path d="M51.75,145.27a1,1,0,0,0-1,1v4.35a1,1,0,0,0,1,1h2.9a1,1,0,0,0,1-1v-4.35a1,1,0,0,0-1-1Z" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-39)"/>
+            <g>
+              <rect x="33.06" y="190.93" width="8.71" height="6.53" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-40)"/>
+              <rect x="48.3" y="190.93" width="8.71" height="6.53" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-41)"/>
+              <rect x="63.54" y="190.93" width="8.71" height="6.53" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-42)"/>
+              <rect x="33.06" y="179.06" width="8.71" height="6.53" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-43)"/>
+              <rect x="48.3" y="179.06" width="8.71" height="6.53" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-44)"/>
+              <rect x="63.54" y="179.06" width="8.71" height="6.53" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-45)"/>
+              <rect x="33.06" y="202.8" width="8.71" height="6.53" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-46)"/>
+              <rect x="48.3" y="202.8" width="8.71" height="6.53" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-47)"/>
+              <rect x="63.54" y="202.8" width="8.71" height="6.53" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-48)"/>
+              <rect x="33.06" y="214.67" width="8.71" height="6.53" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-49)"/>
+              <rect x="48.3" y="214.67" width="8.71" height="6.53" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-50)"/>
+              <rect x="63.54" y="214.67" width="8.71" height="6.53" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-51)"/>
+              <polygon points="79.87 172.21 52.65 161.32 25.44 172.21 25.44 242.61 39.59 242.61 39.59 229.55 65.72 229.55 65.72 242.61 65.86 242.61 79.87 242.61 79.87 172.21" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-52)"/>
+              <line x1="31.97" y1="242.61" x2="12.37" y2="242.61" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-53)"/>
+              <line x1="94.03" y1="242.61" x2="74.43" y2="242.61" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-54)"/>
+            </g>
+            <path d="M53.12,125.36a8.83,8.83,0,0,0-8.79,8.94,7.64,7.64,0,0,0,1.84,5.1,7.81,7.81,0,0,1,2.5,5.11,3.46,3.46,0,0,0,3.55,3.35h2.13a3.46,3.46,0,0,0,3.55-3.35,8,8,0,0,1,2.45-5.16,7.69,7.69,0,0,0,1.72-5.05,9,9,0,0,0-9-8.94" fill="#fff"/>
+            <path d="M53.12,125.36a8.83,8.83,0,0,0-8.79,8.94,7.64,7.64,0,0,0,1.84,5.1,7.81,7.81,0,0,1,2.5,5.11,3.46,3.46,0,0,0,3.55,3.35h2.13a3.46,3.46,0,0,0,3.55-3.35,8,8,0,0,1,2.45-5.16,7.69,7.69,0,0,0,1.72-5.05A9,9,0,0,0,53.12,125.36Z" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-55)"/>
+            <path d="M59,133.79a6.29,6.29,0,0,0-6.17-5.07" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-56)"/>
+          </g>
+        </g>
+      </g>
+      <g id="license">
+        <line id="license-path" x1="465.99" y1="391.04" x2="465.99" y2="109.43" fill="none" stroke="#00b945" stroke-miterlimit="10" stroke-width="1.81" opacity="0.4"/>
+        <g id="license-illu">
+          <path d="M466,293.3c24.59,0,44.52-29.46,44.52-65.81S490.58,161.69,466,161.69s-44.52,29.46-44.52,65.81S441.41,293.3,466,293.3" fill="#fff"/>
+          <text transform="translate(437.27 273.02)" font-size="15.48" fill="#c3c3c3" font-family="WorkSans-Light, Work Sans">Li<tspan x="12.4" y="0" letter-spacing="-0.01em">c</tspan><tspan x="20.69" y="0">ense</tspan></text>
+          <g opacity="0.2">
+            <g>
+              <rect x="440.77" y="178.65" width="48.09" height="63.87" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-57)"/>
+              <polygon points="468.23 231.43 468.23 250.78 472.13 246.91 476.03 250.78 476.03 231.43 468.23 231.43" fill="#fff"/>
+              <polygon points="468.23 231.43 468.23 250.78 472.13 246.91 476.03 250.78 476.03 231.43 468.23 231.43" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-58)"/>
+              <polygon points="478.15 228.69 479.52 230.21 477.69 231.12 478.31 233.07 476.27 233.16 476.05 235.19 474.15 234.44 473.12 236.2 471.69 234.74 470.03 235.94 469.32 234.02 467.32 234.44 467.44 232.4 465.45 231.97 466.39 230.16 464.75 228.95 466.35 227.68 465.33 225.91 467.31 225.4 467.1 223.36 469.12 223.7 469.76 221.76 471.46 222.89 472.83 221.38 473.93 223.1 475.8 222.28 476.1 224.3 478.14 224.31 477.59 226.28 479.46 227.11 478.15 228.69" fill="#fff"/>
+              <polygon points="478.15 228.69 479.52 230.21 477.69 231.12 478.31 233.07 476.27 233.16 476.05 235.19 474.15 234.44 473.12 236.2 471.69 234.74 470.03 235.94 469.32 234.02 467.32 234.44 467.44 232.4 465.45 231.97 466.39 230.16 464.75 228.95 466.35 227.68 465.33 225.91 467.31 225.4 467.1 223.36 469.12 223.7 469.76 221.76 471.46 222.89 472.83 221.38 473.93 223.1 475.8 222.28 476.1 224.3 478.14 224.31 477.59 226.28 479.46 227.11 478.15 228.69" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-59)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="project-illu">
+        <text transform="translate(434.85 87.46)" font-size="19.36" fill="#606060" font-family="WorkSans-Light, Work Sans">P<tspan x="11.36" y="0" letter-spacing="-0.02em">r</tspan><tspan x="18.23" y="0">oject</tspan></text>
+        <line x1="470.94" y1="17.09" x2="460.99" y2="32.49" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-60)"/>
+        <polyline points="455.94 33.23 449.5 24.79 455.94 16.36" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-61)"/>
+        <polyline points="476.04 33.23 482.49 24.79 476.04 16.36" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-62)"/>
+        <line x1="465.99" y1="48.38" x2="465.99" y2="59.27" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-63)"/>
+        <line x1="478.69" y1="59.27" x2="453.29" y2="59.27" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-64)"/>
+        <rect x="429.7" y="0.75" width="72.58" height="48.09" fill="none" stroke-miterlimit="10" stroke-width="1.5" stroke="url(#Unbenannter_Verlauf_36-65)"/>
+      </g>
+      <g id="tossca">
+        <text transform="translate(434.55 495.85)" font-size="19.36" fill="#606060" font-family="WorkSans-Light, Work Sans"><tspan letter-spacing="-0.11em">T</tspan><tspan x="9" y="0">ossca</tspan></text>
+        <g id="tossca-2" data-name="tossca">
+          <g clip-path="url(#clip-path)">
+            <polygon points="423.44 415.87 485.92 396.3 506.75 466.12 444.28 485.71 423.44 415.87" fill="url(#Unbenannter_Verlauf_3)"/>
+          </g>
+          <g clip-path="url(#clip-path-2)">
+            <polygon points="446.67 429.64 475.45 420.62 483.7 448.28 454.91 457.3 446.67 429.64" fill="url(#Unbenannter_Verlauf_3-2)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

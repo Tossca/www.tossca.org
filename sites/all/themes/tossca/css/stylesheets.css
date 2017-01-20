@@ -4405,9 +4405,10 @@ form .cke_contents,
   width: 240px;
 }
 
-/* line 142, ../sass/_fold.sass */
+/* line 143, ../sass/_fold.sass */
 
-.fold--189 {
+.fold--189,
+.fold--262 {
   font-size: 0;
 }
 
@@ -6161,26 +6162,34 @@ form .cke_contents,
     margin-top: -20px;
   }
 
-  /* line 133, ../sass/_fold.sass */
+  /* line 134, ../sass/_fold.sass */
 
   .fold--188 .fold--intro h1,
   .fold--188 .fold--intro h2,
-  .fold--188 .fold--intro p {
+  .fold--188 .fold--intro p,
+  .fold--258 .fold--intro h1,
+  .fold--258 .fold--intro h2,
+  .fold--258 .fold--intro p {
     padding-right: 50% !important;
   }
 
-  /* line 138, ../sass/_fold.sass */
+  /* line 139, ../sass/_fold.sass */
 
   .fold--188 .fold--intro h1.rtecenter,
   .fold--188 .fold--intro h2.rtecenter,
-  .fold--188 .fold--intro p.rtecenter {
+  .fold--188 .fold--intro p.rtecenter,
+  .fold--258 .fold--intro h1.rtecenter,
+  .fold--258 .fold--intro h2.rtecenter,
+  .fold--258 .fold--intro p.rtecenter {
     padding-right: 0;
   }
 
-  /* line 145, ../sass/_fold.sass */
+  /* line 147, ../sass/_fold.sass */
 
   .fold--189 .fold--intro,
-  .fold--189 .section {
+  .fold--189 .section,
+  .fold--262 .fold--intro,
+  .fold--262 .section {
     display: inline-block;
     vertical-align: bottom;
     *vertical-align: auto;
@@ -6189,34 +6198,40 @@ form .cke_contents,
     width: 50%;
   }
 
-  /* line 150, ../sass/_fold.sass */
+  /* line 152, ../sass/_fold.sass */
 
-  .fold--189 .fold--intro {
+  .fold--189 .fold--intro,
+  .fold--262 .fold--intro {
     padding-right: 60px;
   }
 
-  /* line 152, ../sass/_fold.sass */
+  /* line 154, ../sass/_fold.sass */
 
   .fold--189 .fold--intro h2,
-  .fold--189 .fold--intro p {
+  .fold--189 .fold--intro p,
+  .fold--262 .fold--intro h2,
+  .fold--262 .fold--intro p {
     padding-right: 0;
   }
 
-  /* line 156, ../sass/_fold.sass */
+  /* line 158, ../sass/_fold.sass */
 
-  .fold--189 .section {
+  .fold--189 .section,
+  .fold--262 .section {
     padding-left: 60px;
   }
 
-  /* line 159, ../sass/_fold.sass */
+  /* line 161, ../sass/_fold.sass */
 
-  .fold--189 .section .content--teaser {
+  .fold--189 .section .content--teaser,
+  .fold--262 .section .content--teaser {
     text-align: center;
   }
 
-  /* line 162, ../sass/_fold.sass */
+  /* line 164, ../sass/_fold.sass */
 
-  .fold--189 .section .button__wide {
+  .fold--189 .section .button__wide,
+  .fold--262 .section .button__wide {
     width: auto;
     padding: 14px 40px 12px 50px;
     max-width: none;
