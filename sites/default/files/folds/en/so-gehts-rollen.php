@@ -21,7 +21,7 @@
       <?php
         $build = array(
           '#theme' => 'fold_svg',
-          '#path' => 'folds/de/images/roles.svg'
+          '#path' => 'folds/en/images/roles.svg'
         );
         print render($build);
       ?>
