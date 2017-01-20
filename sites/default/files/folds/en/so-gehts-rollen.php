@@ -49,7 +49,7 @@
         <div class="roles--caption" id="individual-caption">
         <div class="roles--caption-figure roles--caption-figure__individual mobile__only"></div>
           <h3>Individual Contributors</h3>
-          <p>Contributors may be employees of contributng companies or collaborate on their own terms.</p>
+          <p>Contributors may be employees of contributing companies or collaborate on their own terms.</p>
         </div>
       </figcaption>
     </figure>
