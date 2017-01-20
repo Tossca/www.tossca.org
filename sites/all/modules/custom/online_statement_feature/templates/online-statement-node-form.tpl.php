@@ -28,7 +28,7 @@
             <?php print drupal_render($form['field_statement_cmpny_individual']) ?>
             <div class="statement--adress-target" id="statement--adress-target__individual"></div>
             <p class="font-size__s base--top__30 base--top__20__mobile">
-              <?php print t('nachfolgend „Sie“ oder „Individualkontributor(in)“ genannt') ?>
+              <?php print t('Hereafter “You” or “Individual Contributor”') ?>
             </p>
           </div>
           <?php print drupal_render($form['online_statement_header_left_governance']) ?>
