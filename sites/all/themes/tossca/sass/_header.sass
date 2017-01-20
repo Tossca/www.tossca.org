@@ -1,0 +1,86 @@
+.header
+  position: fixed
+  background: $c_white
+  top: 0
+  left: 0
+  right: 0
+  z-index: 300
+  @extend %font-size__m
+  height: 50px
+  +box-shadow(0 0 15px 0 rgba(0,0,0,0.2))
+  
+  +mq($from: mobile)
+    height: 80px
+    
+  .admin-menu &
+    top: 20px
+  
+  &,
+  a
+    +link-colors($c_black, $c_primary)
+
+  &--logo
+    position: absolute
+    top: 18px
+    left: 30px
+    +icon_sprite(logo)
+    text-indent: -1111em
+    +mq($to: mobile) 
+      font-size: 14px
+      top: 7px
+      left: 9px
+    +mq($from: desktop)
+      left: 40px
+
+  &--navigation
+    line-height: 66px
+    +mq($from: mobile)
+      +stretch(-4px, auto, auto, 220px)
+    +mq($from: desktop)
+      left: 250px
+      
+  &--locale
+    +mq($to: mobile)
+      position: absolute
+      bottom: 100px
+      padding-left: 30px
+    +mq($from: mobile)
+      +stretch(30px, 230px, auto, auto)
+    +mq($from: desktop)
+      right: 240px
+      
+  &--downloads
+    @extend %button
+    @extend %text-transform__up
+    color: $c_white !important
+    +mq($to: mobile)
+      background: none
+      text-transform: none
+      padding: 0
+      font-size: 34px
+      padding: 10px 0 10px 30px
+      opacity: 0.7
+      line-height: 66px
+      letter-spacing: 0 
+      &,
+      *
+        overflow: visible
+      .button--content
+        opacity: 0.7
+      &.active
+        .button--content
+          opacity: 1
+      &:after
+        display: none !important
+
+        
+    +mq($from: mobile)
+      +stretch(50px, 0, 0, auto)
+      width: 50px
+      background: $c_primary
+      top: 0
+      text-indent: 0
+      padding: 30px 0 28px
+      width: 200px
+      text-align: center
+      +single-transition(background) 

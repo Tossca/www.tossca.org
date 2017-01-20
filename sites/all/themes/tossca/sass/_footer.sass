@@ -1,0 +1,27 @@
+.footer
+  position: relative
+  +mq($to: mobile) 
+    padding: 20px 0
+  
+  &,
+  &--push
+    height: 240px
+    +mq($from: mobile)
+      height: 80px
+    
+  &--wrapper
+    min-height: 100%
+    margin-bottom: -240px
+    +mq($from: mobile)
+      margin-bottom: -80px
+          
+  &--navigation
+    +mq($to: mobile)
+      line-height: 30px
+      text-align: center
+    +mq($from: mobile)
+      +stretch
+      top: 2px
+      left: 30px
+      right: auto
+      bottom: auto

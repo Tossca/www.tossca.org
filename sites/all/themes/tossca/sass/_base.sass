@@ -1,0 +1,133 @@
+@charset "UTF-8"
+
+*  
+  +box-sizing(border-box)
+  &:focus
+    outline: none
+
+html
+  height: 100%
+  
+body
+  height: 100%
+  @extend %f__sans
+  @extend %font-size__m
+  color: $c_base-text
+  +selection(transparent, $c_primary)
+      
+   
+img
+  display: block
+  width: 100%
+  height: auto
+  -ms-interpolation-mode: bicubic
+
+a
+  +link-colors($c_primary, $c_secondary)
+  +single-transition(color)
+  text-decoration: none
+    
+
+.base--wrapper
+  position: relative
+
+// ++++++++++++++++++++++++++++++
+// HELPER
+// ++++++++++++++++++++++++++++++
+.base--bigtarget
+  +stretch(0, 0, 0, 0)
+  background: url("images/alpha.png")
+  text-indent: -1111em
+  font-size: 0
+  line-height: 0
+  z-index: 1
+      
+.base__relative
+  position: relative 
+  *zoom: 1
+
+.base__center
+  margin-right: auto
+  margin-left: auto
+
+.base--wrapper  
+  padding-top: 50px
+  +mq($from: mobile)
+    padding-top: 80px
+  
+.base--spacer__outer
+  @extend %spacer__outer
+  
+.base__float-right
+  float: right
+  
+.base__float-left
+  float: left
+ 
+.base__inline-block
+  +inline-block()
+
+.base--text-align__center
+  text-align: center
+  
+.base--text-align__right
+  text-align: right
+
+.base__centered
+  +centered(800px)
+  padding: 0 48px
+
+.base--bottom__1em
+  margin-bottom: 1em
+.base--bottom__2em
+  margin-bottom: 2em
+  
+.base--top__1em
+  padding-top: 1em
+.base--top__2em
+  padding-top: 2em
+  
+@for $i from 0 through 40 
+  .base--bottom__#{$i*5}
+    display: block
+    padding-bottom: #{$i*5}px
+    +mq($to: mobile)
+      padding-bottom: 0px
+  .base--bottom__#{$i*5}__mobile
+    display: block
+    +mq($to: mobile)
+      padding-bottom: #{$i*5}px !important
+    
+@for $i from 1 through 40
+  .base--top__#{$i*5}
+    padding-top: #{$i*5}px
+    +mq($to: mobile)
+      padding-top: 0px
+  .base--top__#{$i*5}__mobile
+    display: block
+    +mq($to: mobile)
+      padding-top: #{$i*5}px !important
+
+.nowrap,
+.base--nowrap
+  white-space: nowrap 
+  
+.js .js-hide
+  display: none
+
+.base__hidden
+  position: absolute
+  left: -1111em
+  top: -1111em
+  
+
+.base--clearfix
+  +pie-clearfix
+
+.base--close
+  width: 40px
+  height: 40px
+  background: url("images/close__dark.svg") no-repeat 50% 50%
+  .base__inverted &
+    background-image: url("images/close__bright.svg")
+  

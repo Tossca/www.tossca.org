@@ -1,0 +1,137 @@
+$parents: (#init-company, #governance, #license, #contrib-company, #individual)
+
+.roles
+  +mq($from: mobile)
+    text-align: center
+  svg
+    display: none
+    +mq($from: mobile)
+      +inline-block
+      text
+        +user-select(none)
+
+  figure
+    +mq($from: mobile, $to: desktop)
+      +scale(0.7)
+      +transform-origin(center, center)
+      margin-left: -15vw
+
+
+  #connection-start,
+  #connection-end,
+  [data-name=connection-start],
+  [data-name=connection-end]
+    display: none
+    
+  .tabs--list
+    a
+      font-size: 20px
+    +mq($from: mobile, $to: desktop)
+      li
+        margin: 0 0.7em !important
+      a
+        font-size: 16px
+
+  @each $parent in $parents
+    #{$parent}-illu
+      +transform-origin(50%, 50%)
+      &,
+      & > g,
+      & > text,
+        +single-transition(all, 0.1s)
+
+      &:hover,
+      &.is-active
+        +scale(1.05)
+        cursor: pointer
+        & > g
+          opacity: 1
+        & > text
+          fill: $c_base-text
+          
+        #{$parent}-path ~ &
+          stroke: $c_base-text
+          
+
+
+  &--caption 
+    margin-bottom: 6em
+    +mq($from: mobile)
+      margin-bottom: 0
+      text-align: left
+      padding: 30px
+      background: $c_white
+      border: 1px solid $c_neutral_l
+      +stretch(215px, auto, auto, 0)
+      width: 400px
+      min-height: 260px
+      opacity: 0
+      +transform-origin(50%, 50%)
+      +scale(0.2)
+      visibility: hidden
+      +single-transition(all)
+      +transition-delay(0)
+
+      &.is-active
+        +scale(1)
+        visibility: visible
+        opacity: 1
+        +transition-delay(0.8s)
+      p
+        padding-right: 0 !important
+      &:after
+        content: '×'
+        position: absolute
+        top: 4px
+        right: 10px
+        font-size: 20px
+
+      &#governance-caption
+        left: 100px
+      &#license-caption
+        left: 50%
+        margin-left: -200px
+      &#contrib-company-caption
+        left: auto
+        right: 100px
+      &#individual-caption
+        left: auto
+        right: 0
+        
+    +mq($to: mobile)
+      position: relative
+      *
+        position: relative
+        z-index: 2
+      padding-right: 30%
+      &.even
+        padding-right: 0
+        padding-left: 30% 
+        
+
+    &-figure
+      +mq($to: mobile) 
+        width: 200px
+        height: 200px
+        background-size: cover
+        position: absolute
+        z-index: 1
+        top: 50%
+        right: -70px
+        margin-top: -100px
+        opacity: 0.8
+        
+        .even &
+          right: auto
+          left: -70px
+        
+      &__init-company
+        background: url("/sites/default/files/folds/de/images/init-company__mobile.png")
+      &__governance
+        background: url("/sites/default/files/folds/de/images/governance__mobile.png")
+      &__license
+        background: url("/sites/default/files/folds/de/images/license__mobile.png")
+      &__contrib-company
+        background: url("/sites/default/files/folds/de/images/contrib-company__mobile.png")
+      &__individual
+        background: url("/sites/default/files/folds/de/images/individual__mobile.png")

@@ -1,0 +1,130 @@
+@charset "UTF-8"
+
+@import "form/select"
+@import "form/checkbox"
+@import "form/radio"
+
+@import "form/statement"
+
+form,
+.form
+  .cke_top,
+  .cke_bottom,
+  .cke_chrome,
+  .cke_toolgroup
+    background: none
+    +box-shadow(none)
+  .cke_chrome,
+    border-color: $c_border
+    +border-radius(2px)
+  .cke_resizer
+    border-color: transparent $c_border transparent transparent
+  .cke_contents
+    padding: 6px
+
+
+.form-textarea
+  resize: none
+
+.form-text,
+.form-textarea
+  +border-radius(2px)
+  
+.form-text,
+.form-textarea,
+.form-submit
+  -webkit-appearance: none
+
+.form-text,
+.form-textarea
+  @extend %f__sans
+  @extend %font-size__m
+  color: $c_base-text
+  width: 100%
+  border: none
+  border: 1px solid $c_border
+  +single-transition(border-color)
+  padding: 8px 7px
+  text-indent: 5px
+  
+  .fold__emphasized &
+    border: none
+  
+  &.error
+    background: $c_white
+  
+  &:hover,
+  &:focus
+    border-color: shade($c_border, 10%)
+
+.url-textfield
+  display: none
+
+.form-item
+  margin: 0
+  margin-bottom: 1em
+  
+  &-error
+    position: relative
+    
+    .form-text
+      border-radius: 2px 2px 0 0 
+
+    &-message
+      @extend %font-size__s
+      padding: 5px 10px
+      // background: $c_warning
+      +background-image(linear-gradient(-163deg, desaturate(invert($c_secondary), 10%), desaturate(invert($c_primary), 10%)))
+      position: relative
+      top: 2px
+      z-index: 10
+      &:before
+        content: ''
+        width: 0
+        height: 0
+        border-style: solid
+        border-width: 0 7px 7px 7px
+        border-color: transparent transparent desaturate(invert($c_primary), 10%) transparent
+        position: absolute
+        top: -7px
+        
+
+      .form-type-checkbox &
+        top: 14px
+        left: -2px
+
+
+.description
+  @extend %font-size__s
+  color: $c_neutral_l
+
+.form-required
+  color: $c_primary
+  .fold__emphasized &
+    color: $c_white
+
+.form-submit
+  @extend %button
+  
+.fieldset-wrapper
+  margin-bottom: 2em
+  
+.form--label__inline
+  .form-type-textfield,
+  .form-type-password
+    position: relative
+    &.form-item-error
+      label
+        &,
+        .form-required
+          color: $c_error
+    label
+      position: absolute
+      top: 9px
+      left: 15px
+      color: $c_neutral
+      .form-required
+        color: $c_neutral
+      &.element-invisible
+        top: -1111em
+        left: -1111em

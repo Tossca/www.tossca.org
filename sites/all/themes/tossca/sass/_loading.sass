@@ -1,0 +1,24 @@
+.loading
+  &--overlay
+    +stretch
+    background: $c_white
+    display: flex
+    align-items: center
+    z-index: 60
+    visibility: visible
+    opacity: 1
+    +single-transition(all, 1s)
+    
+    .is-loaded &
+      visibility: hidden
+      opacity: 0
+
+  &--logo
+    width: 100%
+    text-align: center
+    
+    img
+      +inline-block
+      width: 30%
+      min-width: 120px
+      max-width: 240px

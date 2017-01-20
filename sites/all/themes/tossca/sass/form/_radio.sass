@@ -1,0 +1,98 @@
+// UNIFORM RADIO
+.form-item.form-type-radio,
+.form-type-radio
+  // position: relative
+  
+  label
+    position: relative
+    line-height: 20px
+    +user-select(none)
+    cursor: pointer
+    display: block
+    padding-left: 40px
+    
+  .radio
+    position: absolute
+    left: 0
+    top: -4px
+    display: block
+    color: $c_primary
+    +single-transition(color)
+
+    &#uniform-edit-appointment
+      top: 4px
+    
+    .form-radio
+      +opacity(0)
+      border: none
+      background: none
+      margin: -2px 0 0 -2px
+      width: 28px
+      height: 28px
+      +stretch
+      &:active,
+      &:focus
+        outline: none
+    
+    span
+      display: block
+      width: 28px
+      height: 28px
+      +border-radius(50%)
+      border: 1px solid tint($c_neutral, 30%)
+      position: relative
+      +single-transition(border-color)
+      &:before
+        content: ''
+        +border-radius(50%)
+        +single-transition(opacity)
+        opacity: 0
+        display: block
+        +stretch(7px, 7px, 7px, 7px)
+        background: $c_primary
+      &.checked 
+        border-color: $c_neutral
+        &:before
+          opacity: 1
+
+    
+  &:hover,
+  &:active
+    .radio
+      span
+        border-color: $c_neutral
+        &:before
+          opacity: 0.5
+          
+      .checked
+        &:before
+          opacity: 1
+
+          
+  &.form-disabled
+    +opacity(0.5)
+    label
+      cursor: default
+    &:hover,
+    &:active
+      .radio
+        span
+          border-color: $c_primary
+          &:before
+            background: $c_primary
+
+  &.form-item-error
+    label
+      color: $c_error
+    .radio
+      span
+        border-color: $c_error
+        &:before
+          background: $c_error
+    &:hover,
+    &:active
+      .radio
+        span
+          border-color: $c_error
+          &:before
+            background: $c_error

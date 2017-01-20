@@ -1,0 +1,40 @@
+.accordion
+  &--title,
+  &--item
+    display: block
+    padding: 20px 0
+    border-bottom: 1px solid $c_neutral_l
+    
+  &--title
+    position: relative
+    padding-right: 50px
+    
+    &:first-child
+      border-top: 1px solid $c_neutral_l 
+    
+    .ui-icon
+      position: absolute
+      right: 0
+      top: 50% 
+      margin-top: -15px 
+      +icon_sprite(plus__circled) 
+      +mq($to: mobile) 
+        font-size: 13px
+
+      .no-touchevents &
+        opacity: 0
+        +single-transition(opacity)
+
+    .no-touchevents &
+      &:hover
+        color: $c_primary
+        cursor: pointer
+        .ui-icon
+          opacity: 1
+      
+    &.ui-state-active
+      color: $c_primary
+      border-bottom: none
+      .ui-icon
+        +icon_sprite(minus__circled)
+        opacity: 1

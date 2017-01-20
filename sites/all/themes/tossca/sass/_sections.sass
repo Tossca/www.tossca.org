@@ -1,0 +1,100 @@
+// Section
+.section
+  margin-left: auto
+  margin-right: auto
+  font-size: 0  
+  letter-spacing: 0
+
+// Section Region
+.section
+
+  .section--module
+    margin: 0 10px      
+  &.has-modules
+    margin: 0 -10px
+       
+  .section--region
+    width: 100%
+    +inline-block(top)
+    @extend %font-size__m
+    
+  .lt-ie8 &
+    .section--region
+      overflow: visible
+      float: left
+
+
+.section__100
+  .section--region
+    width: 100%
+
+.section__50
+  .section--module
+    margin: 0 30px  
+    +mq($from: wide)
+      margin: 0 60px  
+  &.has-modules
+    margin: 0 -30px
+    +mq($from: wide)
+      margin: 0 -60px
+    
+  .section--region
+    width: 100%
+    +mq($from: tablet)
+      width: 50%
+      
+.section__40-60    
+  .section--region-1
+    width: 100%
+    margin-bottom: 30px
+    +mq($from: desktop)
+      width: 40%
+      margin-bottom: 0
+  .section--region-2
+    width: 100%
+    +mq($from: desktop)
+      width: 60%
+      
+.section__33
+  .section--region
+    +mq($to: mobile) 
+      margin-bottom: 30px
+  .section--module
+    margin: 0 20px
+    +mq($from: desktop)
+      margin: 0 40px
+  &.has-modules
+    margin: 0 -20px
+    +mq($from: desktop)
+      margin: 0 -40px
+    
+  .section--region
+    width: 100%
+    +mq($from: mobile)
+      width: (100%) / 2
+    +mq($from: tablet)
+      width: (100%)/3
+      
+.section__25
+  .section--region
+    width: 100%
+    +mq($from: tablet, $to: desktop)
+      width: (100%)/2
+    +mq($from: desktop)
+      width: (100%)/4
+
+
+.section__divided
+  position: relative
+  &:after
+    content: ''
+    +stretch(0, auto, 0, 50%)
+    border-right: 1px solid $c_neutral_l
+
+
+
+.contextual-links,
+.pane-title,
+.pane-content,
+.ctools-dropdown
+  font-size: 12px !important

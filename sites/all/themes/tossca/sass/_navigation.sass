@@ -1,0 +1,147 @@
+.navigation
+  font-size: 16px
+
+  &--header,
+  &--footer
+    li
+      +mq($from: mobile)
+        text-align: center
+        +inline-block
+        margin: 0 10px
+      +mq($from: desktop)
+        margin: 0 20px
+    
+    a
+      display: block
+      padding: 10px 0 8px
+      +link-colors($c_base-text, $c_primary)
+      &.active
+        +mq($from: mobile)
+          color: $c_primary
+      
+  &--header
+    li
+      +mq($to: mobile) 
+        text-align: left
+    a
+      +mq($to: mobile) 
+        +link-colors($c_white, $c_white)
+        font-size: 34px 
+        padding-left: 30px
+        opacity: 0.7
+        &.active
+          opacity: 1
+
+  &--footer
+    a
+      +mq($from: mobile)
+        padding: 30px 0 28px
+        
+
+        
+  &--mobile-content
+    +mq($to: mobile)
+      +stretch(50px, 0, 0, 0)
+      padding-top: 18px
+      height: 600px
+      overflow: hidden
+      +background-image(linear-gradient(17deg, $c_primary, $c_secondary))
+      text-align: left
+      opacity: 0
+      visibility: hidden
+      +single-transition(all, 0.4s, ease)
+      
+      .navigation--header li,
+      .locale--header,
+      .header--downloads
+        +translateY(-20px)
+        opacity: 0
+        +single-transition(all, 0.3s, ease)
+        +transition-delay(0s)
+
+      .navigation--mobile-active &
+        opacity: 1
+        visibility: visible
+        .navigation--header li,
+        .locale--header,
+        .header--downloads
+          opacity: 1
+          +translateY(0)
+
+        .navigation--header li
+          &:nth-child(1)
+            +transition-delay(0.3s)
+          &:nth-child(2)
+            +transition-delay(0.35s)
+          &:nth-child(3)
+            +transition-delay(0.4s)
+
+        .header--downloads
+          +transition-delay(0.45s)
+
+        .locale--header
+          +transition-delay(0.6s)
+
+
+      
+  &--mobile-trigger
+    display: none
+    +squish-text
+    +mq($to: mobile)
+      display: block
+      position: absolute
+      right: 6px
+      top: 6px
+      width: 40px
+      height: 40px
+
+      &-icon
+        position: absolute
+        +stretch(0, 0, 5%, 0)
+        
+        span
+          display: block
+          width: 50%
+          height: 2px
+          background: $c_base-text
+          position: absolute
+          top: 50%
+          left: 50%
+          margin-left: -25%
+          +single-transition(all, 0.2s, cubic-bezier(0.67, 0.1, 0.78, 1))
+          +rotate(0deg)
+
+          &.i2,
+          &.i3
+            +transition-delay(0s)
+          
+          &.i1,
+          &.i4
+            +transition-delay(0.3s)
+
+          &.i1
+            margin-top: -6px
+
+          &.i4
+            margin-top: 6px
+            
+        .navigation--mobile-active &
+          .i2,
+          .i3
+            +transition-delay(0.3s)
+
+          .i1,
+          .i4
+            +opacity(0)
+            +transition-delay(0s)
+
+          .i1
+            margin-top: -9px
+          .i4
+            margin-top: 9px
+
+          .i2
+            +rotate(45deg)
+
+          .i3
+            +rotate(-45deg)

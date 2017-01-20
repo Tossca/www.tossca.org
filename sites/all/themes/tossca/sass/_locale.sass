@@ -1,0 +1,22 @@
+.locale
+  li
+    +inline-block
+    margin: 0 8px
+    +mq($to: mobile)
+      margin: 0 12px
+      &:first-child
+        margin-left: 0
+    
+    &.active
+      +mq($from: mobile, $to: desktop)
+        display: none
+        // display: inline-block 
+  
+  a
+    +link-colors($c_white, $c_white)
+    +mq($to: mobile)
+      font-size: 22px
+    +mq($from: mobile)
+      +link-colors($c_base-text, $c_base-text)
+    &.active
+      @extend %underlined

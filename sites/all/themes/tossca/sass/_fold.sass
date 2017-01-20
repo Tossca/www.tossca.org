@@ -1,0 +1,166 @@
+.fold
+  padding: 40px 0 50px
+  overflow: hidden
+  +mq($from: desktop)
+    padding: 70px 0 80px
+    
+   
+  &__flat
+    padding: 15px 0
+    +mq($from: desktop)
+      padding: 30px 0
+  
+  &--inner
+    position: relative
+    @extend %spacer__outer
+    
+  &__narrow
+    .fold--inner
+      @extend %spacer__outer__narrow
+
+  &--intro
+    position: relative
+    z-index: 10
+    +mq($to: mobile) 
+      margin-bottom: 1em
+    
+    h1,
+    h2,
+    p
+      +mq($from: desktop)
+        padding-right: 44%
+        &.rtecenter
+          padding-right: 0
+      
+    &__front
+      +mq($from: mobile)
+        padding: 60px 0
+        h1,
+        h2,
+        p
+          margin: 0 auto
+          padding-right: 0 !important
+          max-width: 780px
+        
+    &-signature
+      font-size: 20px
+      line-height: 1.5em
+      position: relative
+      overflow: hidden
+      bottom: -1.75em
+      margin-bottom: 2em
+      padding-left: 0.1em
+      +mq($from: mobile)
+        padding-left: 1em
+        bottom: -2.5em
+        margin-bottom: 0
+      &:before
+        content: ''
+        position: absolute
+        left: 0.1em
+        border-top: 1px solid
+        right: 0.1em
+        +mq($from: mobile)
+          right: auto
+          left: 1em
+          width: 90%
+        +mq($from: desktop)
+          width: 80%
+      
+      &-prefix
+        +mq($from: mobile)
+          float: left
+
+  &__accented
+    &,
+    & .fold
+      background: $c_neutral_el
+      
+    &-deco
+      +stretch(-80px, 0, auto, 0)
+      padding-top: (100%) * 800/1200
+      svg
+        +stretch
+  
+  &__emphasized
+    &,
+    & .fold
+      // +background-image(linear-gradient(17deg, $c_primary, $c_secondary))
+      +background-image(linear-gradient(17deg, shade($c_primary, 20%), shade($c_secondary, 20%)))
+      color: $c_white
+      a
+        +link-colors($c_white, tint($c_primary, 50%))
+        
+
+
+  // SPECIFICS I
+  &--process
+    position: relative
+    padding-top: 150px
+    +mq($from: mobile, $to: desktop)
+      padding-top: 80px
+    &-info
+      position: absolute
+      left: 50%
+      bottom: 100px
+      width: 240px
+      +mq($from: mobile, $to: desktop)
+        left: 55%
+        bottom: 60px
+      +mq($to: mobile)
+        position: relative
+        left: 30%
+        width: 200px
+        bottom: 80px
+    &-branches
+      +mq($to: mobile)
+        transform: rotate(270deg)
+        opacity: 0.6
+        width: 250%
+        position: absolute
+        left: -110%
+        top: 25%
+        
+  &--badge
+    &-icon
+      +mq($from: mobile) 
+        margin-top: -20px
+      
+
+// SPECIFICS II
+.fold--188
+  .fold--intro
+    h1,
+    h2,
+    p
+      +mq($from: mobile)
+        padding-right: 50% !important
+        &.rtecenter
+          padding-right: 0
+
+
+.fold--189
+  font-size: 0
+  +mq($from: mobile)
+    .fold--intro,
+    .section
+      +inline-block(bottom)
+      width: 50%
+      
+    .fold--intro
+      padding-right: 60px
+      h2,
+      p
+        padding-right: 0
+    
+    .section
+      padding-left: 60px
+      
+      .content--teaser
+        text-align: center
+
+      .button__wide
+        width: auto
+        padding: 14px 40px 12px 50px
+        max-width: none
+        +inline-block

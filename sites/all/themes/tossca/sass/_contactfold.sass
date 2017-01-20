@@ -1,0 +1,20 @@
+.contactfold
+  +mq($from: tablet, $to: desktop)
+    padding-top: (8 / 16) * 100%
+  +mq($from: desktop)
+    padding-top: (6 / 16) * 100%
+
+  &--content
+    background: rgba(63, 65, 66, 0.9)
+    padding: 50px 20px 50px 20px
+    +mq($from: tablet)
+      padding: 50px 0 70px 65px
+      +stretch(0, 50%, 0, 0)
+      z-index: 10
+      
+  &--map
+    +mq($to: tablet)
+      min-height: 300px
+    +mq($from: tablet)
+      +stretch(0, 0, 0, 0)
+      z-index: 5

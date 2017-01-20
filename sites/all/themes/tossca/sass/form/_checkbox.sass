@@ -1,0 +1,97 @@
+// UNIFORM CHECKBOX
+.form-item.form-type-checkbox,
+.form-type-checkbox,
+.form-type-bef-checkbox
+  position: relative
+  padding-left: 40px
+  
+  label
+    +inline-block
+    position: relative
+    line-height: 20px
+    +user-select(none)
+    cursor: pointer
+    
+  .checker
+    position: absolute
+    left: 0
+    top: -5px
+    margin: 0 7px 0 0
+
+    .form-checkbox,
+    input
+      +opacity(0)
+      border: none
+      background: none 
+      margin: -1px 0 0 -1px
+      width: 26px
+      height: 26px
+      +stretch
+      &:active,
+      &:focus
+        outline: none
+    
+    span
+      display: block
+      width: 26px
+      height: 26px
+      border: 2px solid tint($c_neutral_l, 30%)
+      +border-radius(2px)
+      position: relative
+      top: 2px
+      font-size: 14px
+      +single-transition(border)
+
+      &:before
+        content: ''
+        +icon_sprite(checkmark)
+        +single-transition(opacity)
+        +opacity(0)
+        display: block
+        position: relative
+        top: 3px
+        left: 4px
+        
+      .fold__emphasized &
+        border-color: $c_white
+        border-width: 1px
+        &:before
+          +icon_sprite(checkmark__white)
+          top: 3px
+          left: 3px
+        
+      &.checked 
+        &:before
+          +opacity(100)
+    
+  &:hover,
+  &:active
+    .checker
+      span
+        border-color: $c_neutral_l
+        color: $c_neutral_l
+  
+  &.form-disabled
+    +opacity(0.5)
+    label
+      cursor: default
+    &:hover,
+    &:active
+      .checker
+        span
+          border: 1px solid tint($c_neutral_l, 75%)
+          
+
+  &.form-item-error
+    .checker
+      span
+        border-color: $c_error
+        &:before
+          color: $c_error
+    &:hover,
+    &:active
+      .checker
+        span
+          border-color: $c_error
+          &:before
+            color: $c_error

@@ -1,0 +1,179 @@
+.editor--content,
+.cke_editable
+  // -webkit-font-smoothing: antialiased
+  
+  &.font-size__s,
+  .font-size__s &,
+  .font-size__s
+    @extend %font-size__s
+    
+  &.font-size__l,
+  .font-size__l &,
+  .font-size__l
+    @extend %font-size__l
+    
+  &.font-size__xl,
+  .font-size__xl &,
+  .font-size__xl
+    @extend %font-size__xl
+    
+  &.font-size__xxl,
+  .font-size__xxl &,
+  .font-size__xxl
+    @extend %font-size__xxl
+    
+  &.font-size__xxxl,
+  .font-size__xxxl &,
+  .font-size__xxxl
+    @extend %font-size__xxxl
+    
+  &.font-size__xxxxl,
+  .font-size__xxxxl &,
+  .font-size__xxxxl
+    @extend %font-size__xxxxl
+    
+  &__consider-margins
+    p
+      &:last-child
+        margin-bottom: 0
+  
+  p
+    margin-bottom: 2em
+      
+  h1,
+  .h1
+    @extend %font-size__xxxl
+    padding-bottom: 0.5em
+    span
+      @extend %font-size__xl
+      display: block
+
+  h2,
+  .h2
+    @extend %font-size__xxl
+    padding-bottom: 0.5em
+
+  h3,
+  .h3
+    @extend %font-size__xl
+    padding-bottom: 0.5em
+    
+
+  p + h2,
+  p + .h2,
+  ul + h2,
+  ul + .h2,
+  ol + h2,
+  ol + .h2,
+  p + h3,
+  p + .h3,
+  ul + h3,
+  ul + .h3,
+  ol + h3,
+  ol + .h3
+    padding-top: 1em
+    
+
+  strong
+    font-weight: bold
+    
+  em
+    font-style: italic
+    
+  ul 
+    margin-bottom: 1em
+    li
+      position: relative
+      padding-left: 14px
+      margin-bottom: 0.5em
+      &:before
+        content: ''
+        height: 4px
+        width: 4px
+        position: absolute
+        top: 0.5em
+        left: 0
+        +border-radius(50%)
+        +inline-block()
+        background: $c_primary
+    
+    &.list__lined,
+    &.list__checked
+      width: 100%
+      font-size: 0
+      li
+        @extend %font-size__l
+        +inline-block(top)
+        position: relative
+        width: 100%
+        padding-left: 0
+        &:before
+          width: 0
+          height: 0
+        +mq($from: mobile, $to: desktop)
+          width: 50%
+        +mq($from: desktop)
+          width: 33%
+
+    
+    &.list__lined
+      margin: 0 -20px
+      li
+        padding: 5px 20px 
+        &:after
+          content: '' 
+          +stretch(auto, 20px, 0, 20px)
+          border-bottom: 1px solid $c_neutral_l
+          
+          .fold__accented &
+            border-color: shade($c_neutral_l, 10%)
+          .fold__emphasized &
+            border-color: $c_white
+          
+    &.list__inline
+      li
+        width: auto !important
+        
+    &.list__checked
+      margin: 0 -20px 0 0
+      +mq($from: mobile)
+        margin: 0 -40px 0 0
+      li
+        padding-right: 20px
+        padding-left: 40px
+        margin-bottom: 1.25em       
+        +mq($from: mobile)
+          padding-right: 40px
+          padding-left: 50px
+          margin-bottom: 2em       
+        &:before
+          content: ''
+          +icon_sprite(checkmark__solid)
+          position: absolute
+          font-size: 10px
+          left: 0
+          top: -4px
+          +mq($from: mobile)
+            font-size: $mq-base-font-size 
+            top: -6px
+          
+
+        
+  ol
+    margin-bottom: 1em 
+    list-style-type: decimal
+    list-style-position: outside
+    padding-left: 1em
+    ol
+      list-style-type: lower-latin
+    li
+      padding-left: 0.5em
+      margin-bottom: 0.5em
+  
+  .rtecenter 
+    text-align: center
+
+
+.editor        
+  &--nowrap
+    white-space: nowrap

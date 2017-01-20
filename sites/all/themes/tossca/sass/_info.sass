@@ -1,0 +1,83 @@
+.info
+  position: absolute
+  right: 0
+  top: 5px
+  z-index: 10 
+  font-size: 18px
+  
+  &--wrapper
+    position: relative
+    padding-right: 30px
+    &.hover,
+    .no-touchevents &:hover
+      z-index: 1000
+
+  &--overlay
+    +stretch
+    +background-image(linear-gradient(-163deg, shade($c_secondary, 20%), shade($c_primary, 20%)))
+    opacity: 0
+    visibility: hidden
+    z-index: 900
+    +single-transition(all)
+
+    .info--is-active &
+      opacity: 0.9
+      visibility: visible
+
+
+  &:before
+    content: '?'
+    padding: 8px
+    display: block
+    margin: -4px 0 0 -3px
+    
+  &--content
+    opacity: 0
+    visibility: hidden
+    background: $c_white
+    @extend %font-size__m
+    padding: 24px
+    width: 280px
+    position: absolute
+    left: -130px
+    top: 55px
+    z-index: 1100
+    border: 1px solid $c_border
+    +single-transition(all)
+    color: $c_base-text
+    +mq($to: mobile)
+      left: auto
+      right: 0
+      
+    .fold__emphasized &
+      border: none
+
+    &-deco
+      +stretch(0, auto, 0, -12px)
+      width: 13px
+      height: 100%
+    
+    a
+      +link-colors($c_base-text, $c_base-text)
+      
+    p
+      margin-bottom: 0.5em
+      &:last-child
+        margin-bottom: 0
+    
+    ul
+      list-style: disc outside
+      padding-left: 10px
+      li
+        margin-bottom: 0.5em
+        &:last-child
+          margin-bottom: 0
+
+  
+  .no-touchevents &:hover,
+  .hover &
+    z-index: 1000
+    .info--content
+      top: 50px
+      opacity: 1
+      visibility: visible

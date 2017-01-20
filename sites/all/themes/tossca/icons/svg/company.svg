@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="110" height="110.9" viewBox="0 0 110 110.9">
+  <title>company</title>
+  <g id="Ebene_2" data-name="Ebene 2">
+    <g id="Ebene_1-2" data-name="Ebene 1">
+      <g id="init-company">
+        <g id="init-company-illu">
+          <g>
+            <rect x="27.87" y="40.61" width="11.73" height="8.8" fill="none" stroke="#606060" stroke-width="1.34"/>
+            <rect x="48.4" y="40.61" width="11.73" height="8.8" fill="none" stroke="#606060" stroke-width="1.34"/>
+            <rect x="68.93" y="40.61" width="11.73" height="8.8" fill="none" stroke="#606060" stroke-width="1.34"/>
+            <rect x="27.87" y="24.62" width="11.73" height="8.8" fill="none" stroke="#606060" stroke-width="1.34"/>
+            <rect x="48.4" y="24.62" width="11.73" height="8.8" fill="none" stroke="#606060" stroke-width="1.34"/>
+            <rect x="68.93" y="24.62" width="11.73" height="8.8" fill="none" stroke="#606060" stroke-width="1.34"/>
+            <rect x="27.87" y="56.6" width="11.73" height="8.8" fill="none" stroke="#606060" stroke-width="1.34"/>
+            <rect x="48.4" y="56.6" width="11.73" height="8.8" fill="none" stroke="#606060" stroke-width="1.34"/>
+            <rect x="68.93" y="56.6" width="11.73" height="8.8" fill="none" stroke="#606060" stroke-width="1.34"/>
+            <rect x="27.87" y="72.59" width="11.73" height="8.8" fill="none" stroke="#606060" stroke-width="1.34"/>
+            <rect x="48.4" y="72.59" width="11.73" height="8.8" fill="none" stroke="#606060" stroke-width="1.34"/>
+            <rect x="68.93" y="72.59" width="11.73" height="8.8" fill="none" stroke="#606060" stroke-width="1.34"/>
+            <polygon points="90.93 15.39 54.27 0.72 17.6 15.39 17.6 110.23 36.67 110.23 36.67 92.63 71.87 92.63 71.87 110.23 72.06 110.23 90.93 110.23 90.93 15.39" fill="none" stroke="#606060" stroke-width="1.34"/>
+            <line x1="17.6" y1="110.23" y2="110.23" fill="none" stroke="#606060" stroke-width="1.34"/>
+            <line x1="110" y1="110.23" x2="90.93" y2="110.23" fill="none" stroke="#606060" stroke-width="1.34"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

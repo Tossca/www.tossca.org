@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <title>plus__circled</title>
+  <g id="Ebene_2" data-name="Ebene 2">
+    <g id="Ebene_1-2" data-name="Ebene 1">
+      <g>
+        <path d="M14,28A14,14,0,1,1,28,14,14,14,0,0,1,14,28ZM14,1A13,13,0,1,0,27,14,13,13,0,0,0,14,1Z" fill="#606060"/>
+        <polygon points="21 13.5 14.5 13.5 14.5 7 13.5 7 13.5 13.5 7 13.5 7 14.5 13.5 14.5 13.5 21 14.5 21 14.5 14.5 21 14.5 21 13.5" fill="#606060"/>
+      </g>
+    </g>
+  </g>
+</svg>

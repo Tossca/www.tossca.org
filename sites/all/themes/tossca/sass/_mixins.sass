@@ -1,0 +1,18 @@
+@mixin base-center($max_width: 1024)
+  margin-right: auto
+  margin-left: auto
+  max-width: $max_width
+
+@mixin base-center-content
+  max-width: 980px
+  margin-right: auto
+  margin-left: auto
+
+@function em($target, $context: $basefont)
+  @return ($target / $context) * 1em
+
+
+@mixin centered($maxWidth: $centered_default_max_width)
+  max-width: $maxWidth
+  margin-left: auto
+  margin-right: auto

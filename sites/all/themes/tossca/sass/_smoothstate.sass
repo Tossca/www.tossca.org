@@ -1,0 +1,20 @@
+.smoothstate
+  &--wrapper
+    .header
+      .front &
+        +single-transition(transform, 0.3s, ease-in-out)
+        +transition-delay(0.5s)
+    .base--wrapper
+      +single-transition(opacity, 0.3s, ease-in-out)
+      +transition-delay(0s)
+
+    &.header-out
+      .header
+        .front &
+          +translateY(-120%)
+          +transition-delay(0s)
+
+    &.main-out
+      .base--wrapper
+        opacity: 0
+        +transition-delay(0.5s)

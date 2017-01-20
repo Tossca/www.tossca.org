@@ -1,0 +1,7 @@
+@import "utilities/icons"
+@import "utilities/sprite"
+
+@each $icon, $attrs in $icons
+  .icon--#{$icon}
+    @if $icon != sprite
+      +icon_sprite(inspect($icon))

@@ -1,0 +1,26 @@
+.mobile
+  
+  &__only
+    display: none
+    +mq($to: mobile)
+      display: block
+  
+  &__hidden
+    display: none
+    +mq($from: mobile)
+      display: block
+      
+  &__hidden__inline
+    display: none
+    +mq($from: mobile)
+      display: inline
+      
+  &__tablet__only
+    display: none
+    +mq($to: desktop)
+      display: block
+  
+  &__tablet__hidden
+    display: none
+    +mq($from: desktop)
+      display: block

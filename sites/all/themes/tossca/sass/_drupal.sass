@@ -1,0 +1,97 @@
+.krumo-root img 
+  display: inline
+  width: auto
+
+// TABS
+ul.tabs.primary  
+  text-align: center
+  padding: 0
+  font-size: 0
+  background: $c_primary
+  
+  li
+    +inline-block()
+    +mq($to: tablet)
+      display: block
+      width: 100%
+
+  a
+    +inline-block()
+    font-size: 12px
+    text-transform: uppercase 
+    letter-spacing: 0.1em 
+    background: tint($c_primary, 10%)
+    color: $c_white
+    margin: 0
+    padding: 16px 24px 14px
+    text-decoration: none
+    +single-transition(all)
+    &:hover,
+    &.active
+      background: shade($c_primary, 5%)
+      
+    +mq($to: tablet)
+      +box-sizing(border-box)
+      display: block
+      width: 100%
+      
+.tabs-wrapper
+  // position: relative
+  // z-index: 110
+  // top: 66px
+  // +mq($from: mobile)
+  //   top: 76px
+        
+.element-invisible
+  position: absolute
+  left: -1000em
+  top: -1000em
+
+// MESSAGES
+.messages-wrapper
+  padding: 20px
+  margin-top: -40px
+  +mq($to:tablet) 
+    padding: 5px
+
+div.messages
+  background: $c_neutral
+  border: none
+  font-size: 18px
+  padding: 30px
+  margin: 0
+  position: relative
+  +mq($to:tablet)
+    font-size: 15px
+    line-height: 21px
+  ul
+    margin: 0
+    padding: 0
+
+  em 
+    font-style: italic
+
+div.status
+  color: $c_status
+  background: lighten($c_status,42%)
+
+div.warning
+  color: $c_warning
+  background: lighten($c_warning,30%)
+
+div.error
+  color: $c_error
+  background: lighten($c_error,43%)
+
+.contextual-links,
+.pane-title,
+.ctools-dropdown
+  font-size: 14px !important
+  
+.node-unpublished
+  background: none
+  
+img.admin-menu-icon
+  width: 16px
+  height: 16px
+  display: inline

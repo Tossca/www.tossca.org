@@ -1,0 +1,31 @@
+core = 7.x
+name = tossca.org
+description = tossca.org Frontend Theme
+engine = phptemplate
+
+
+; Regions =====================================================================
+
+; regions[header] = Header
+regions[header_navigation] = Header Navigation
+regions[header_locale] = Header Language Switcher
+regions[content] = Content
+regions[footer_navigation] = Navigation Footer
+
+
+; Stylesheets =================================================================
+
+stylesheets[screen][] = css/stylesheets.css
+
+
+; Javascripts  ================================================================
+
+; scripts[] = ../../../../bower_components/imagesloaded/imagesloaded.pkgd.js
+; scripts[] = ../../../../bower_components/smoothstate/jquery.smoothState.min.js
+; scripts[] = ../../../../bower_components/smoothstate/jquery.smoothState.min.js
+scripts[] = js/vendor/greensock-js/src/minified/TweenLite.min.js
+scripts[] = js/vendor/greensock-js/src/minified/TimelineMax.min.js
+scripts[] = js/vendor/greensock-js/src/minified/plugins/CSSPlugin.min.js
+scripts[] = js/vendor/greensock-js/src/minified/plugins/DrawSVGPlugin.min.js
+scripts[] = js/vendor/greensock-js/src/minified/easing/EasePack.min.js
+scripts[] = js/bundle_main.js

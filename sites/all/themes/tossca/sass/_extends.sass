@@ -1,0 +1,138 @@
+%button
+  +inline-block
+  +f__sans
+  @extend %font-size__m
+  // @extend %text-transform__up
+  background: $c_primary
+  position: relative
+  overflow: hidden
+  padding: 16px 40px
+  color: $c_white
+  +single-transition(background)
+  border: none
+   
+  &:after
+    content: ''
+    +stretch()
+    +background-image(linear-gradient(-163deg, $c_secondary, $c_primary))
+    // +animation(button_deco_out 2.3s ease 1 forwards)
+    opacity: 0
+    +single-transition(opacity .4s ease)
+    .base--preload &
+      +animation-duration(0s)
+  
+  &:hover,
+  &:active
+    color: $c_white !important
+    &:after
+      opacity: 1
+      +transition-duration(0.8s)
+      // +animation(button_deco_in 2.3s ease 1 forwards)
+
+%text-transform__up 
+  text-transform: uppercase
+  letter-spacing: 0.07em
+
+%f__sans
+  +f__sans
+
+// FONT SIZE
+%font-size__s
+  font-size: 14px
+  line-height: 17px
+  // +mq($from: mobile)
+  //   font-size: 18px
+  //   line-height: 25px
+    
+%font-size__m
+  font-size: 14px
+  line-height: 18px
+  +mq($from: mobile)
+    font-size: 16px
+    line-height: 20px
+
+%font-size__l
+  font-size: 16px
+  line-height: 22px
+  +mq($from: mobile)
+    font-size: 20px
+    line-height: 28px
+
+%font-size__xl
+  font-size: 18px
+  line-height: 26px
+  +mq($from: mobile)
+    font-size: 24px
+    line-height: 34px
+  
+%font-size__xxl
+  font-size: 22px
+  line-height: 28px
+  +mq($from: mobile)
+    font-size: 36px
+    line-height: 46px
+  
+%font-size__xxxl
+  font-size: 34px
+  line-height: 40px
+  +mq($from: mobile)
+    font-size: 46px
+    line-height: 56px
+  
+%font-size__xxxxl
+  font-size: 40px
+  line-height: 46px 
+  +mq($from: mobile, $to: desktop)
+    font-size: 50px
+    line-height: 57px
+  +mq($from: desktop)
+    font-size: 58px
+    line-height: 66px
+      
+
+// SPACER
+%spacer__outer
+  +centered(84%)
+  +mq($from: tablet, $to: desktop)
+    max-width: 640px
+  +mq($from: desktop, $to: wide)
+    max-width: 940px
+  +mq($from: wide)
+    max-width: 1100px
+    
+  &__narrow
+    +mq($from: tablet, $to: desktop)
+      max-width: 700px
+    +mq($from: desktop)
+      max-width: 800px
+
+
+   
+%bigtarget
+  +stretch(0, 0, 0, 0)
+  background: url("images/alpha.png")
+  text-indent: -1111em
+  font-size: 0
+  line-height: 0
+  z-index: 1
+  
+
+%underlined
+  position: relative
+  &:after
+    content: '' 
+    border-bottom: 1px solid
+    +stretch(auto, 0, -2px, 0)
+    
+
+%underlined__hover
+  @extend %underlined
+  &:after
+    opacity: 0
+    +single-transition(all)
+    bottom: -5px
+    
+  &:hover
+    &:after
+      opacity: 1
+      bottom: -2px

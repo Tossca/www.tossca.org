@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25.4" height="21.02" viewBox="0 0 25.4 21.02">
+  <defs>
+    <linearGradient id="Unbenannter_Verlauf_6" data-name="Unbenannter Verlauf 6" x1="19.81" y1="1.44" x2="5.67" y2="15.58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00b945"/>
+      <stop offset="0" stop-color="#00b9b3"/>
+      <stop offset="1" stop-color="#00b948"/>
+    </linearGradient>
+  </defs>
+  <title>checkmark</title>
+  <g id="Ebene_2" data-name="Ebene 2">
+    <g id="Ebene_1-2" data-name="Ebene 1">
+      <g>
+        <polygon points="1.41 11.35 5.75 6.91 9.89 10.95 19.65 1.41 23.99 5.85 9.89 19.62 1.41 11.35" fill="url(#Unbenannter_Verlauf_6)"/>
+        <path d="M19.64,2.83l2.94,3L9.89,18.22,2.83,11.33l2.94-3,4.12,4,9.75-9.52m0-2.83L18.24,1.4,9.89,9.55,7.16,6.89,5.73,5.5,4.33,6.93l-2.94,3L0,11.36l1.43,1.4,7.06,6.89L9.89,21l1.4-1.36L24,7.26l1.43-1.4L24,4.44l-2.94-3L19.67,0Z" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

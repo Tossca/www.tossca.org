@@ -1,0 +1,118 @@
+#online-statement-node-form
+  
+  .statement--type-select
+    +mq($to: desktop)
+      .label
+        display: block
+        padding: 0.25em 0 
+
+
+  .form-item-field-online-statement-type-und
+    +inline-block
+    margin: 0 0.6em
+    
+    .selector
+      border: none
+      +background-image(linear-gradient(17deg, $c_primary, $c_secondary))
+      padding: 10px 24px 
+      span
+        @extend %font-size__l
+        color: $c_white
+      select
+        height: 52px
+      &:after
+        top: 20px
+        right: 18px
+        border-width: 10px 6px 0 6px
+        border-color: $c_white transparent transparent transparent
+        +mq($to: mobile)
+          top: 17px
+  
+  .field-name-field-statement-cmpny-governance
+    .selector span
+      display: inline
+  
+
+  #edit-online-statement-header-right-principal
+    ol
+      padding-left: 0
+  
+  h2
+    text-align: center
+    margin-bottom: 40px
+    padding: 0 10%
+    span
+      display: block
+      @extend %font-size__l
+      
+  .form--statement
+    &-header
+      position: relative
+      margin-bottom: 50px
+      +mq($from: mobile)
+        &:before,
+        &:after
+          content: ''
+          border-right: 1px solid $c_white 
+          opacity: 0.5
+        &:before
+          +stretch(0, 50%, 60%, auto)
+        &:after
+          +stretch(60%, 50%, 0, auto)
+        
+    &-dividertext
+      width: 60px
+      text-align: center
+      
+      +mq($to: mobile)
+        display: block
+        width: auto
+        padding: 1em 0 3em 
+        position: relative
+        &:before,
+        &:after
+          content: ''
+          border-top: 1px solid $c_white 
+          opacity: 0.5
+        &:before
+          +stretch(33%, 60%, auto, 0)
+        &:after
+          +stretch(33%, 0, auto, 60%)
+        
+      +mq($from: mobile)
+        +stretch(50%, auto, auto, 50%)
+        margin-left: -30px
+        margin-top: -0.6em
+        
+
+    &-body
+      max-height: 200px
+      padding: 30px 15px
+      +mq($from: mobile)
+        max-height: 500px
+        padding: 60px 100px
+      overflow-y: auto
+      background: tint($c_neutral_l, 50%)
+      color: $c_base-text
+      margin-bottom: 50px
+      
+      h3
+        text-align: center
+        
+  .statement--adress-target
+    margin-top: -10px
+  #statement--adress-target__governance
+    padding-left: 30px
+    
+
+  #edit-field-online-statement-terms
+    +inline-block(middle)
+
+  +mq($to: mobile) 
+    .base__float-right
+      float: none
+    .form-actions
+      padding-top: 20px
+    .form-submit
+      width: 100%
+    

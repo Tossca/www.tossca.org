@@ -1,0 +1,50 @@
+@import "mixins"
+
+$c_black: rgb(0, 0, 0)
+$c_white: rgb(255, 255, 255)
+
+
+$c_neutral: rgb(96,96,96) // grey
+$c_neutral_el: rgb(245,245,245) // grey extra light
+$c_neutral_l: rgb(225,225,225) // grey light
+$c_primary: rgb(0,185,70) // green
+$c_secondary: rgb(0,185,180) // petrol
+
+$c_border: $c_neutral_l
+
+$c_base-text: $c_neutral
+
+$c_active: $c_primary
+
+$c_positive: $c_secondary
+$c_negative: invert($c_primary)
+
+$c_success: $c_positive
+$c_status: $c_neutral
+$c_warning: invert($c_secondary)
+$c_error: $c_negative
+
+// FONTS
+$f__sans: 'WorkSans-Light'
+=f__sans
+  font-family: $f__sans, "sans serif"
+.f__sans
+  @extend %f__sans
+
+$page_frame_width: 10px
+
+$default-transition-duration: .2s
+$default-transition-function: ease-in-out
+
+// Name your breakpoints in a way that creates a ubiquitous language
+// across team members. It will improve communication between
+// stakeholders, designers, developers, and testers.
+$mq-breakpoints: (mobile: 560px, tablet: 768px, desktop: 1024px, wide: 1200px)
+
+// Define the breakpoint from the $mq-breakpoints list that should
+// be used as the target width when outputting a static stylesheet
+// (i.e. when $mq-responsive is set to 'false').
+$mq-static-breakpoint: desktop
+$mq-base-font-size: 16px !default
+
+$centered_default_max_width: 1100px !default

@@ -1,0 +1,66 @@
+.tabs
+  &--list 
+    +pie-clearfix
+    list-style: none !important 
+    margin-bottom: 2em !important
+    +mq($from: mobile)
+      margin-bottom: 4em !important
+    text-align: center
+    
+    li
+      &:before
+        height: 0 !important
+        width: 0 !important
+      padding-left: 0 !important 
+      +mq($from: mobile)
+        +inline-block
+      +mq($from: tablet, $to: wide)
+        margin: 0 1em !important
+      +mq($from: desktop, $to: wide)
+        margin: 0 1.5em !important
+      +mq($from: wide)
+        margin: 0 2em !important
+      
+      
+      // &:before
+      //   width: 0 !important
+      //   height: 0 !important
+
+    a
+      @extend %font-size__xl
+      +inline-block
+      text-align: center
+      text-decoration: none
+      color: $c_base-text
+      @extend %underlined__hover
+        
+    .ui-state-active
+      a
+        @extend %underlined
+        &:after
+          opacity: 1 !important
+          bottom: -2px !important
+        
+  &--content-item
+    +mq($from: mobile)
+      +centered(620px)
+      
+  // @for $i from 1 through 10
+  //   .tabs--count__#{$i}
+  //     li
+  //       width: (100%) / $i
+  //       +mq($to: mobile)
+  //         float: none
+  //         width: 100%
+        
+
+  // &--content-item
+  //   background: $c_white
+  //   padding: 30px 20px
+    
+  // &__no-indent
+  //   .tabs--content-item
+  //     padding: 30px 0
+  //     .base--background__light &
+  //       padding: 30px 20px
+  //       

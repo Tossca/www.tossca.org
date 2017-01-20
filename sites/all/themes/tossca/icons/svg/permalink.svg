@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <linearGradient id="Unbenannter_Verlauf_6" data-name="Unbenannter Verlauf 6" x1="24.2" y1="1.8" x2="1.91" y2="24.09" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00b945"/>
+      <stop offset="0" stop-color="#00b9b3"/>
+      <stop offset="1" stop-color="#00b948"/>
+    </linearGradient>
+  </defs>
+  <title>permalink</title>
+  <g id="Ebene_2" data-name="Ebene 2">
+    <g id="Ebene_1-2" data-name="Ebene 1">
+      <path d="M6.49,26A6.49,6.49,0,0,1,1.9,14.92L6.85,10A6.5,6.5,0,0,1,16,10a1.5,1.5,0,1,1-2.12,2.12,3.5,3.5,0,0,0-4.95,0L4,17A3.5,3.5,0,0,0,9,22l2.12-2.12A1.5,1.5,0,0,1,13.21,22L11.09,24.1A6.48,6.48,0,0,1,6.49,26ZM19.16,16l4.95-4.95A6.5,6.5,0,0,0,14.92,1.9L12.8,4a1.5,1.5,0,0,0,2.12,2.12L17,4A3.5,3.5,0,0,1,22,9L17,13.91a3.6,3.6,0,0,1-4.95,0A1.5,1.5,0,0,0,10,16a6.5,6.5,0,0,0,9.19,0Z" fill="url(#Unbenannter_Verlauf_6)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,65 @@
+.slider
+  position: relative
+  
+.bx-wrapper
+  position: relative
+  
+  .slider--item
+    display: none
+  
+  .bx-controls
+    +stretch
+
+  .bx-prev,
+  .bx-next
+    display: block
+    position: absolute
+    +stretch()
+    +squish-text
+    z-index: 101
+    &:before
+      content: ''
+      position: absolute
+      top: 40%
+      font-size: 18px
+
+    .no-touchevents &
+      opacity: 0.3
+      +single-transition(opacity)
+      &:hover
+        opacity: 1
+    
+  .bx-prev
+    left: 0
+    right: 50%
+    &:before
+      left: 20px
+      // +icon_sprite("slider__prev")
+  .bx-next
+    left: 50%
+    right: 0
+    &:before
+      right: 10px
+      // +icon_sprite("slider__next")
+    
+
+  .bx-pager
+    position: absolute
+    top: 100%
+    margin-top: -30px
+    width: 100%
+    text-align: center
+    
+    .bx-pager-item
+      +inline-block
+      margin: 0 6px
+      a
+        display: block
+        +squish-text
+        width: 8px
+        height: 8px
+        border: 1px solid $c_primary
+        +border-radius(50%)
+        
+        &.active
+          background: $c_primary

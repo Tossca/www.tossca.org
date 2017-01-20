@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="76" height="105" viewBox="0 0 76 105">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="76" height="105" fill="none"/>
+    </clipPath>
+  </defs>
+  <title>document__white</title>
+  <g id="Ebene_2" data-name="Ebene 2">
+    <g id="Ebene_1-2" data-name="Ebene 1">
+      <g>
+        <g clip-path="url(#clip-path)">
+          <path d="M76,105H0V0H76ZM1,104H75V1H1Z" fill="#fff"/>
+        </g>
+        <rect x="8.85" y="20.5" width="58.07" height="1" fill="#fff"/>
+        <rect x="8.85" y="40.5" width="58.07" height="1" fill="#fff"/>
+        <rect x="8.85" y="30" width="58.07" height="1" fill="#fff"/>
+        <rect x="8.85" y="50" width="58.07" height="1" fill="#fff"/>
+        <rect x="8.85" y="74.5" width="20.02" height="1" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
