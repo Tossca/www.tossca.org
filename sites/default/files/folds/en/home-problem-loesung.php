@@ -5,45 +5,45 @@
       <div class="section--module">
         <div class="animation--problem-intro animation--problem-step" data-label="project">
           <div class="animation--problem-figure animation--problem-figure__project mobile__only"></div>
-          <h2>EN Es ist Zeit, die Dinge zu vereinfachen.</h2>
+          <h2>It's About Time to Simplify Things.</h2>
           <p class="font-size__l">
-            Ein OSS-Projekt durch ein einzelnes Unternehmen ist einfach und unkompliziert, aber ineffizient. Erst die Zusammenarbeit mehrerer Unternehmen spart Zeit und Kosten.
+            Starting an open source software project as a single company might be simple and not too complex, but that's not very efficient.  In order to save time and money you need a way to collaborate with others.
           </p>
 
         </div>
 
         <div class="animation--problem-step even" data-label="many_partners">
           <div class="animation--problem-figure animation--problem-figure__many_partners mobile__only"></div>
-          <h3>Rechtliche Situation</h3>
+          <h3>Legal Situation</h3>
           <p>
-            Sobald jedoch mehrere Unternehmen bzw. Kontributoren am Projekt teilnehmen, wird die rechtliche Absicherung kompliziert. Jede Partei muss mit jeder anderen Partei Verträge über Lizenzen und Patente aushandeln.
+            As soon as several parties contribute to a single project the legal aspects become difficult. Each single party needs to negotiate agreements about licenses and patents with each other.
           </p>
         </div>
 
         <div class="animation--problem-step" data-label="bad_commit">
           <div class="animation--problem-figure animation--problem-figure__bad_commit mobile__only"></div>
-          <h3>Risiken</h3>
+          <h3>Risks</h3>
           <p>
-            Die Veröffentlichung eigener Open Source Software birgt aber auch Risiken. Selbst erstellte OSS enthält in der Regel andere OSS an der eventuell versehentlich Änderungen vorgenommen wurden. Hierbei können Patente und Lizenzvereinbarungen verletzt werden.
+            Publishing an OSS project poses risks of its own. Often a project contains other OSS project's code and may inadvertently have modified it. This may be in violation of the other project's IP or licenses.
           </p>
         </div>
 
         <div class="animation--problem-step even" data-label="withdraw">
           <div class="animation--problem-figure animation--problem-figure__withdraw mobile__only"></div>
-          <h3>Gefahr für das Projekt</h3>
+          <h3>Risks for the Project</h3>
           <p>
-            Ziehen sich Teilnehmer zurück, ist das Konstrukt gefährdet, weil dem Projekt damit eventuell wichtige Rechte oder Lizenzen entzogen werden.
+            If one of the parties involved withdraws from the project the whole construct of agreements may fall apart and the project may lose important licenses.
           </p>
         </div>
 
         <div class="animation--problem-step" data-label="tossca">
           <div class="animation--problem-figure animation--problem-figure__tossca mobile__only"></div>
-          <h3>Die einfache Lösung</h3>
+          <h3>The Simple Solution</h3>
           <p>
-            Durch das durchdachte Modell von Tossca, in dem alle Verträge nur mit Tossca geschlossen werden und die Lizenz des Projekts durch Tossca erteilt wird, herrscht Klarheit und Sicherheit für alle Projektteilnehmer.
+          Using the Tossca model all parties contributing to the project sign a contract with and grant a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable license to Tossca. Tossca then grants a license to all users of the project on the same terms.
           </p>
           <p>
-            Lizenzen für eingebrachte Software-Bestandteile werden zeitlich unbegrenzt an Tossca erteilt. Tossca ist verpflichtet, diese ebenso  zeitlich unbegrenzt zur Verfügung zu stellen.
+           This way the users and contributors are safe and the model is clear and simple for all parties involved.
           </p>
         </div>
       </div>
