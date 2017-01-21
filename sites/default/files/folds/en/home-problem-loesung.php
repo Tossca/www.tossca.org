@@ -24,7 +24,7 @@
           <div class="animation--problem-figure animation--problem-figure__bad_commit mobile__only"></div>
           <h3>Risks</h3>
           <p>
-            Publishing an OSS project poses risks of its own. Often a project contains other OSS project's code and may inadvertently have modified it. This may be in violation of the other project's IP or licenses.
+          When accepting contributions of others the project takes some risks. The contributions may inadvertently violate the licenses, patents or intellectual properties of third parties.
           </p>
         </div>
 

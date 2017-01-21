@@ -24,7 +24,7 @@
           <div class="animation--problem-figure animation--problem-figure__bad_commit mobile__only"></div>
           <h3>Risiken</h3>
           <p>
-            Die Veröffentlichung eigener Open Source Software birgt aber auch Risiken. Selbst erstellte OSS enthält in der Regel andere OSS an der eventuell versehentlich Änderungen vorgenommen wurden. Hierbei können Patente und Lizenzvereinbarungen verletzt werden.
+          Werden Beiträge Dritter akzeptiert, so entstehen Risiken. Diese Beiträge können eventuell versehentlich die Lizenzen, Patente oder Urheberrechte anderer verletzen.
           </p>
         </div>
 
