@@ -43,7 +43,7 @@
           Using the Tossca model all parties contributing to the project sign a contract with and grant a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable license to Tossca. Tossca then grants a license to all users of the project on the same terms.
           </p>
           <p>
-           This way the users and contributors are safe and the model is clear and simple for all parties involved.
+           This way the users and contributors are secure and the model is clear and simple for all parties involved.
           </p>
         </div>
       </div>
