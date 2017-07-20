@@ -5804,6 +5804,108 @@ form .cke_contents,
   visibility: visible;
 }
 
+/* line 3, ../sass/_table.sass */
+
+table thead img {
+  display: inline;
+  width: auto !important;
+}
+
+/* line 8, ../sass/_table.sass */
+
+.views-table,
+.table {
+  border-collapse: separate;
+  width: 100% !important;
+  padding-bottom: 25px;
+}
+
+/* line 17, ../sass/_table.sass */
+
+.views-table th,
+.views-table td,
+.table th,
+.table td {
+  vertical-align: top;
+  padding: 10px 5px;
+  font-weight: 300;
+}
+
+/* line 22, ../sass/_table.sass */
+
+.views-table th.clear,
+.views-table td.clear,
+.table th.clear,
+.table td.clear {
+  border-bottom: none !important;
+}
+
+/* line 25, ../sass/_table.sass */
+
+.views-table th:first-child,
+.views-table td:first-child,
+.table th:first-child,
+.table td:first-child {
+  padding-left: 0;
+}
+
+/* line 29, ../sass/_table.sass */
+
+.views-table thead th,
+.views-table thead td,
+.table thead th,
+.table thead td {
+  border: none;
+  padding-top: 3px;
+  color: #00b946;
+  font-weight: bold;
+}
+
+/* line 36, ../sass/_table.sass */
+
+.views-table thead th.active,
+.views-table thead td.active,
+.table thead th.active,
+.table thead td.active {
+  color: #00b9b4;
+}
+
+/* line 41, ../sass/_table.sass */
+
+.views-table tbody td,
+.table tbody td {
+  border: none;
+}
+
+/* line 43, ../sass/_table.sass */
+
+.views-table tbody td:first-child,
+.table tbody td:first-child {
+  text-align: left;
+  padding-left: 5px;
+}
+
+/* line 46, ../sass/_table.sass */
+
+.views-table tbody tr,
+.table tbody tr {
+  background: whitesmoke;
+}
+
+/* line 48, ../sass/_table.sass */
+
+.views-table tbody tr:nth-child(even),
+.table tbody tr:nth-child(even) {
+  background: white;
+}
+
+/* line 51, ../sass/_table.sass */
+
+.views-table p,
+.table p {
+  margin-bottom: 0px !important;
+}
+
 @media all and (min-width: 35em) {
   /* line 47, ../sass/_extends.sass */
 
@@ -8288,6 +8390,14 @@ form .cke_contents,
   .info--content {
     left: auto;
     right: 0;
+  }
+
+  /* line 8, ../sass/_table.sass */
+
+  .views-table,
+  .table {
+    display: block;
+    overflow: auto;
   }
 }
 

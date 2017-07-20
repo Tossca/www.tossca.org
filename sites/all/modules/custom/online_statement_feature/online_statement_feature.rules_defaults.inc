@@ -13,7 +13,7 @@ function online_statement_feature_default_rules_configuration() {
       "LABEL" : "New Online Statement",
       "PLUGIN" : "reaction rule",
       "OWNER" : "rules",
-      "REQUIRES" : [ "rules" ],
+      "REQUIRES" : [ "rules_i18n", "rules" ],
       "ON" : { "node_insert--online_statement" : { "bundle" : "online_statement" } },
       "DO" : [
         { "mail" : {
