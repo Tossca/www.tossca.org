@@ -1,0 +1,52 @@
+table
+  thead
+    img
+      display: inline
+      width: auto !important
+      
+
+.views-table,
+.table
+  border-collapse: separate
+  width: 100% !important
+  padding-bottom: 25px
+  +mq($to: mobile)
+    display: block
+    overflow: auto
+  
+  th,
+  td
+    vertical-align: top
+    padding: 10px 5px
+    font-weight: 300
+    &.clear
+      border-bottom: none !important
+      
+    &:first-child
+      padding-left: 0
+          
+  thead
+    th,
+    td
+      border: none
+      padding-top: 3px
+      color: $c_primary
+      font-weight: bold
+      
+      &.active
+        color: $c_secondary
+
+            
+  tbody
+    td
+      border: none
+      &:first-child
+        text-align: left
+        padding-left: 5px
+    tr
+      background: $c_neutral_el
+      &:nth-child(even)
+        background: $c_white 
+  
+  p
+    margin-bottom: 0px !important
